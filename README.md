@@ -8,11 +8,11 @@
 
 <br />
 Our Email
-Roizundak@Gmail.com
+Roizundak@Gmail.com | 
 Moriatu@Gmail.com
 
-Our Calender
-https://calendar.google.com/calendar/embed?src=lh5kbi4coesd5q4ct5uqrkknlc%40group.calendar.google.com&ctz=Asia/Jerusalem
+[Our Calender]
+(https://calendar.google.com/calendar/embed?src=lh5kbi4coesd5q4ct5uqrkknlc%40group.calendar.google.com&ctz=Asia/Jerusalem)
 
 ## [Issue Board]()
 
