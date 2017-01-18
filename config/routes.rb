@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/'
+  get 'pages'
   root 'pages#index'
 
   resources :photos
