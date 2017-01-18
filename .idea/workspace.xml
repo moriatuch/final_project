@@ -687,7 +687,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484757966996</updated>
-      <workItem from="1484757968391" duration="4854000" />
+      <workItem from="1484757968391" duration="4925000" />
     </task>
     <task id="LOCAL-00001" summary="2.2.2">
       <created>1484761731396</created>
@@ -745,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484764433446</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor photos to myApp&#10;">
+      <created>1484764489916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484764489916</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4854000" />
+    <option name="totallyTimeSpent" value="4925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
