@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'pages#index'
-
+  get 'test/new'
   resources :photos
   resources :pages
   resources :test
