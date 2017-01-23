@@ -13,3 +13,32 @@
  #*= require_tree .
  #*= require_self
  */
+
+.up {
+    background: linear-gradient(to right, white, skyblue, blue);
+    width : 100%;
+    padding: 1%;
+    margin:5px;
+}
+
+.left {
+
+    background-color: skyblue;
+    display: inline-block;
+    width:15%;
+    height:800px;
+    float: left;
+    margin:5px;
+
+
+
+}
+.right {
+    width : 80%;
+    height : 800px;
+    background-color: lightblue;
+    float: right;
+    margin:5px;
+
+}
+
