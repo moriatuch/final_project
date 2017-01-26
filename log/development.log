@@ -37,7 +37,7 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 1694ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (TypeError: Object doesn't support this property or method):
     1: <!DOCTYPE html>
     2: <html>
@@ -45,7 +45,7 @@ ActionView::Template::Error (TypeError: Object doesn't support this property or 
     4: <body bgColor=black>
     5: <div class = "up">
     6:   <h1>The Web Index</h1>
-  
+
 app/views/pages/index.html.erb:3:in `_app_views_pages_index_html_erb___118402173_49698480'
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -62,7 +62,7 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 593ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (TypeError: Object doesn't support this property or method):
     3:   <head>
     4:     <title>FinalProject</title>
@@ -70,8 +70,8 @@ ActionView::Template::Error (TypeError: Object doesn't support this property or 
     6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     8:   </head>
-    9: 
-  
+    9:
+
 app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__673757976_73037556'
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -95,7 +95,7 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 509ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (TypeError: Object doesn't support this property or method):
     3:   <head>
     4:     <title>FinalProject</title>
@@ -103,8 +103,8 @@ ActionView::Template::Error (TypeError: Object doesn't support this property or 
     6:     <%= stylesheet_link_tag    'application' %>
     7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     8:   </head>
-    9: 
-  
+    9:
+
 app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__673757976_72938352'
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -121,7 +121,7 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 643ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (TypeError: Object doesn't support this property or method):
     3:   <head>
     4:     <title>FinalProject</title>
@@ -129,8 +129,8 @@ ActionView::Template::Error (TypeError: Object doesn't support this property or 
     6:     <%= stylesheet_link_tag    'application' %>
     7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     8:   </head>
-    9: 
-  
+    9:
+
 app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__673757976_81162888'
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -148,9 +148,9 @@ Completed 200 OK in 8521ms (Views: 8426.3ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/index" for ::1 at 2017-01-26 12:00:09 +0200
-  
+
 AbstractController::ActionNotFound (The action 'show' could not be found for PagesController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -204,9 +204,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.0ms)
 Started GET "/photo/index" for ::1 at 2017-01-26 12:00:18 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/photo/index"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -242,9 +242,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3329.7ms)
 Started GET "/photos/index" for ::1 at 2017-01-26 12:01:02 +0200
-  
+
 AbstractController::ActionNotFound (The action 'show' could not be found for PhotosController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -298,9 +298,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.0ms)
 Started GET "/test/index" for ::1 at 2017-01-26 12:01:46 +0200
-  
+
 AbstractController::ActionNotFound (The action 'show' could not be found for TestController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -354,9 +354,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.0ms)
 Started GET "/pagegs/index" for ::1 at 2017-01-26 12:01:56 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pagegs/index"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -392,9 +392,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2976.7ms)
 Started GET "/pages/index" for ::1 at 2017-01-26 12:02:01 +0200
-  
+
 AbstractController::ActionNotFound (The action 'show' could not be found for PagesController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -462,9 +462,9 @@ Completed 200 OK in 118ms (Views: 100.8ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/test" for ::1 at 2017-01-26 12:02:23 +0200
-  
+
 AbstractController::ActionNotFound (The action 'index' could not be found for TestController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -522,14 +522,14 @@ Processing by TestController#index as HTML
 Completed 406 Not Acceptable in 908ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (TestController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -643,14 +643,14 @@ Processing by TestController#index as HTML
 Completed 406 Not Acceptable in 840ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (TestController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -732,9 +732,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2208.5ms)
 Started GET "/test" for ::1 at 2017-01-26 12:12:30 +0200
-  
+
 SyntaxError (C:/final_project/app/controllers/test_controller.rb:8: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/controllers/test_controller.rb:8: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -749,14 +749,14 @@ Processing by TestController#index as HTML
 Completed 406 Not Acceptable in 836ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (TestController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -838,9 +838,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1932.2ms)
 Started GET "/test" for ::1 at 2017-01-26 12:14:06 +0200
-  
+
 AbstractController::ActionNotFound (The action 'index' could not be found for TestController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -929,9 +929,9 @@ Completed 200 OK in 119ms (Views: 108.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/about" for ::1 at 2017-01-26 12:17:31 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/about"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -967,9 +967,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2465.3ms)
 Started GET "/pages/about" for ::1 at 2017-01-26 12:17:46 +0200
-  
+
 AbstractController::ActionNotFound (The action 'show' could not be found for PagesController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -1058,9 +1058,9 @@ Completed 200 OK in 197ms (Views: 173.5ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/test/" for ::1 at 2017-01-26 12:21:03 +0200
-  
+
 AbstractController::ActionNotFound (The action 'index' could not be found for TestController):
-  
+
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -1157,12 +1157,12 @@ Completed 200 OK in 196ms (Views: 171.8ms | ActiveRecord: 0.0ms)
 
 Started GET "/pages/min/plugin-min.css" for ::1 at 2017-01-26 12:30:00 +0200
 Started GET "/pages/min/custom-min.css" for ::1 at 2017-01-26 12:30:00 +0200
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/pages/min/plugin-min.css"):
 ActionController::RoutingError (No route matches [GET] "/pages/min/custom-min.css"):
-  
-  
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1216,9 +1216,9 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages/min/plugin-min.js" for ::1 at 2017-01-26 12:30:00 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/min/plugin-min.js"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1270,17 +1270,17 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (6866.9ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (6422.7ms)
 Started GET "/pages/min/custom-min.js" for ::1 at 2017-01-26 12:30:21 +0200
-  
+
 Started GET "/pages/img/project1.jpg" for ::1 at 2017-01-26 12:30:21 +0200
 ActionController::RoutingError (No route matches [GET] "/pages/min/custom-min.js"):
 Started GET "/pages/img/project2.jpeg" for ::1 at 2017-01-26 12:30:21 +0200
 Started GET "/pages/img/project3.png" for ::1 at 2017-01-26 12:30:21 +0200
 Started GET "/pages/img/project4.jpg" for ::1 at 2017-01-26 12:30:21 +0200
-  
-  
-  
-  
-  
+
+
+
+
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/project1.jpg"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -1311,10 +1311,10 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 ActionController::RoutingError (No route matches [GET] "/pages/img/project2.jpeg"):
 ActionController::RoutingError (No route matches [GET] "/pages/img/project3.png"):
 ActionController::RoutingError (No route matches [GET] "/pages/img/project4.jpg"):
-  
-  
-  
-  
+
+
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1460,9 +1460,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10731.8ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10019.4ms)
 Started GET "/pages/img/project5.png" for ::1 at 2017-01-26 12:30:58 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/project5.png"):
-  
+
 Started GET "/pages/img/parallax1.png" for ::1 at 2017-01-26 12:31:02 +0200
 Started GET "/pages/img/avatar1.png" for ::1 at 2017-01-26 12:31:02 +0200
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
@@ -1492,18 +1492,18 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages/img/avatar3.png" for ::1 at 2017-01-26 12:31:02 +0200
-  
-  
+
+
 Started GET "/pages/img/project6.jpeg" for ::1 at 2017-01-26 12:31:02 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/parallax1.png"):
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar1.png"):
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar3.png"):
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/project6.jpeg"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1556,7 +1556,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1650,9 +1650,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11651.5ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11024.1ms)
 Started GET "/pages/img/avatar4.png" for ::1 at 2017-01-26 12:31:29 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar4.png"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1680,9 +1680,9 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages/img/avatar2.png" for ::1 at 2017-01-26 12:31:40 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar2.png"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1734,9 +1734,9 @@ Completed 200 OK in 1372ms (Views: 816.7ms | ActiveRecord: 0.0ms)
 
 Started GET "/pages/min/plugin-min.css" for ::1 at 2017-01-26 12:32:02 +0200
 Started GET "/pages/min/custom-min.css" for ::1 at 2017-01-26 12:32:02 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/min/custom-min.css"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1763,9 +1763,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/min/plugin-min.css"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1793,10 +1793,10 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages/min/plugin-min.js" for ::1 at 2017-01-26 12:32:03 +0200
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 ActionController::RoutingError (No route matches [GET] "/pages/min/plugin-min.js"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -1850,21 +1850,21 @@ Started GET "/pages/min/custom-min.js" for ::1 at 2017-01-26 12:32:23 +0200
 Started GET "/pages/img/project1.jpg" for ::1 at 2017-01-26 12:32:23 +0200
 Started GET "/pages/img/project2.jpeg" for ::1 at 2017-01-26 12:32:23 +0200
 Started GET "/pages/img/project3.png" for ::1 at 2017-01-26 12:32:23 +0200
-  
-  
-  
-  
-  
+
+
+
+
+
 ActionController::RoutingError (No route matches [GET] "/pages/min/custom-min.js"):
 ActionController::RoutingError (No route matches [GET] "/pages/img/project1.jpg"):
 ActionController::RoutingError (No route matches [GET] "/pages/img/project2.jpeg"):
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Thin.woff2"):
 ActionController::RoutingError (No route matches [GET] "/pages/img/project3.png"):
-  
-  
-  
-  
-  
+
+
+
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2032,9 +2032,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13166.6ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13750.3ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13474.0ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Light.woff2"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2066,10 +2066,10 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Bold.woff2"):
-  
-  
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2101,14 +2101,14 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/material-design-icons/Material-Design-Icons.woff2"):
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.woff2"):
 ActionController::RoutingError (No route matches [GET] "/assets/fonts/fontawesome-webfont.woff"):
-  
-  
-  
+
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2203,9 +2203,9 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages/img/project4.jpg" for ::1 at 2017-01-26 12:33:15 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/project4.jpg"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2232,9 +2232,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Light.woff"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2266,15 +2266,15 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 Started GET "/pages/img/project5.png" for ::1 at 2017-01-26 12:33:33 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Bold.woff"):
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Thin.woff"):
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/project5.png"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2306,7 +2306,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2376,11 +2376,11 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (728.8ms)
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.woff"):
-  
-  
+
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
 ActionController::RoutingError (No route matches [GET] "/assets/font/material-design-icons/Material-Design-Icons.woff"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
@@ -2415,7 +2415,7 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17807.0ms)
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -2448,10 +2448,10 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Light.ttf"):
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Bold.ttf"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -2484,7 +2484,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2516,9 +2516,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Thin.ttf"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2551,10 +2551,10 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages/img/project6.jpeg" for ::1 at 2017-01-26 12:34:26 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/project6.jpeg"):
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/fonts/fontawesome-webfont.ttf"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -2582,7 +2582,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2614,10 +2614,10 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/material-design-icons/Material-Design-Icons.ttf"):
-  
-  
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2650,7 +2650,7 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.ttf"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2683,9 +2683,9 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/font/roboto/Roboto-Bold.woff2" for ::1 at 2017-01-26 12:34:34 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Bold.woff2"):
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -2723,14 +2723,14 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 Started GET "/font/roboto/Roboto-Light.woff2" for ::1 at 2017-01-26 12:34:52 +0200
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Light.woff2"):
 Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-01-26 12:34:55 +0200
-  
+
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (14.0ms)
 Started GET "/pages/img/avatar2.png" for ::1 at 2017-01-26 12:34:55 +0200
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2758,14 +2758,14 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
 Started GET "/font/roboto/Roboto-Thin.woff2" for ::1 at 2017-01-26 12:34:56 +0200
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar2.png"):
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  
-  
-  
+
+
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -2821,7 +2821,7 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (4448.9ms)
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2852,11 +2852,11 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
 Started GET "/pages/img/avatar4.png" for ::1 at 2017-01-26 12:35:01 +0200
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar4.png"):
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (16.0ms)
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
@@ -2912,11 +2912,11 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (9215.2ms)
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 Started GET "/pages/img/avatar1.png" for ::1 at 2017-01-26 12:35:16 +0200
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar1.png"):
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -2946,12 +2946,12 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (502.7ms)
 Started GET "/font/roboto/Roboto-Regular.woff2" for ::1 at 2017-01-26 12:35:23 +0200
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
-  
+
 Started GET "/font/material-design-icons/Material-Design-Icons.woff2" for ::1 at 2017-01-26 12:35:23 +0200
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Regular.woff2"):
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  
-  
+
+
 Started GET "/font/roboto/Roboto-Bold.woff" for ::1 at 2017-01-26 12:35:23 +0200
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
 ActionController::RoutingError (No route matches [GET] "/font/material-design-icons/Material-Design-Icons.woff2"):
@@ -2981,9 +2981,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7562.7ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Bold.woff"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -3011,7 +3011,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3043,11 +3043,11 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
 Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-01-26 12:35:29 +0200
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (8.0ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -3101,10 +3101,10 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/font/roboto/Roboto-Light.woff" for ::1 at 2017-01-26 12:35:41 +0200
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8935.8ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7483.2ms)
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Light.woff"):
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -3135,10 +3135,10 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
 Started GET "/pages/img/avatar3.png" for ::1 at 2017-01-26 12:35:49 +0200
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (52.0ms)
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/avatar3.png"):
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
-  
+
 Started GET "/font/roboto/Roboto-Thin.woff" for ::1 at 2017-01-26 12:35:51 +0200
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -3168,14 +3168,14 @@ puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/font/roboto/Roboto-Regular.woff" for ::1 at 2017-01-26 12:35:51 +0200
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  
-  
+
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Thin.woff"):
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Regular.woff"):
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (6954.2ms)
-  
-  
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3235,12 +3235,12 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/font/roboto/Roboto-Bold.ttf" for ::1 at 2017-01-26 12:35:58 +0200
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Bold.ttf"):
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3823.3ms)
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
@@ -3308,12 +3308,12 @@ Processing by PagesController#index as HTML
 Started GET "/font/material-design-icons/Material-Design-Icons.woff" for ::1 at 2017-01-26 12:36:18 +0200
 Started GET "/font/roboto/Roboto-Light.ttf" for ::1 at 2017-01-26 12:36:18 +0200
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (6582.9ms)
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/font/material-design-icons/Material-Design-Icons.woff"):
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Light.ttf"):
-  
-  
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3374,9 +3374,9 @@ Completed 200 OK in 4880ms (Views: 4513.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/img/parallax1.png" for ::1 at 2017-01-26 12:36:21 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Thin.ttf"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3403,9 +3403,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/img/parallax1.png"):
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
@@ -3437,13 +3437,13 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages/min/plugin-min.css" for ::1 at 2017-01-26 12:36:24 +0200
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
 ActionController::RoutingError (No route matches [GET] "/pages/min/plugin-min.css"):
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (10.0ms)
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (7.0ms)
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
@@ -3491,16 +3491,16 @@ Started GET "/font/roboto/Roboto-Regular.ttf" for ::1 at 2017-01-26 12:36:43 +02
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
 Started GET "/font/material-design-icons/Material-Design-Icons.ttf" for ::1 at 2017-01-26 12:36:43 +0200
   Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (8.0ms)
-  
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (12534.6ms)
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  
+
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Regular.ttf"):
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
 ActionController::RoutingError (No route matches [GET] "/font/material-design-icons/Material-Design-Icons.ttf"):
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  
+
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -3563,9 +3563,9 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10497.2ms)
 Started GET "/pages/min/custom-min.css" for ::1 at 2017-01-26 12:36:56 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/min/custom-min.css"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3623,14 +3623,14 @@ Completed 200 OK in 12593ms (Views: 12566.8ms | ActiveRecord: 0.0ms)
 Started GET "/pages/min/plugin-min.css" for ::1 at 2017-01-26 12:37:18 +0200
 Started GET "/pages/min/custom-min.css" for ::1 at 2017-01-26 12:37:18 +0200
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  
-  
+
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
 ActionController::RoutingError (No route matches [GET] "/pages/min/plugin-min.css"):
 ActionController::RoutingError (No route matches [GET] "/pages/min/custom-min.css"):
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8036.9ms)
-  
-  
+
+
 Started GET "/pages/min/plugin-min.js" for ::1 at 2017-01-26 12:37:19 +0200
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -3684,9 +3684,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/pages/min/plugin-min.js"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3748,7 +3748,7 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 3029ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (can't add a new key into hash during iteration):
     3:   <head>
     4:     <title>FinalProject</title>
@@ -3756,8 +3756,8 @@ ActionView::Template::Error (can't add a new key into hash during iteration):
     6:     <%= stylesheet_link_tag    'application' %>
     7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     8:   </head>
-    9: 
-  
+    9:
+
 app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__885375039_45189912'
 Completed 200 OK in 3413ms (Views: 3302.6ms | ActiveRecord: 0.0ms)
 
@@ -3791,9 +3791,9 @@ Completed 200 OK in 217ms (Views: 189.5ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 236ms (Views: 207.1ms | ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.woff2"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3825,9 +3825,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.woff"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3859,9 +3859,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.ttf"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3894,9 +3894,9 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/font/roboto/Roboto-Regular.woff2" for ::1 at 2017-01-26 13:16:27 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Regular.woff2"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3944,9 +3944,9 @@ Processing by PagesController#index as HTML
   Rendered pages/index.html.erb within layouts/application (1.0ms)
   Rendered pages/index.html.erb within layouts/application (0.0ms)
 Started GET "/font/roboto/Roboto-Regular.woff" for ::1 at 2017-01-26 13:16:33 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Regular.woff"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -3983,9 +3983,9 @@ Completed 200 OK in 1442ms (Views: 1065.8ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/font/roboto/Roboto-Regular.ttf" for ::1 at 2017-01-26 13:16:33 +0200
-  
+
 ActionController::RoutingError (No route matches [GET] "/font/roboto/Roboto-Regular.ttf"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4016,17 +4016,17 @@ Started GET "/min/plugin-min.css" for ::1 at 2017-01-26 13:16:34 +0200
 Started GET "/min/custom-min.css" for ::1 at 2017-01-26 13:16:34 +0200
 Started GET "/min/plugin-min.js" for ::1 at 2017-01-26 13:16:34 +0200
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  
-  
-  
+
+
+
 ActionController::RoutingError (No route matches [GET] "/min/plugin-min.css"):
 ActionController::RoutingError (No route matches [GET] "/min/custom-min.css"):
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
 ActionController::RoutingError (No route matches [GET] "/min/plugin-min.js"):
-  
-  
+
+
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4147,21 +4147,21 @@ Started GET "/img/project2.jpeg" for ::1 at 2017-01-26 13:16:59 +0200
 Started GET "/img/project3.png" for ::1 at 2017-01-26 13:16:59 +0200
 Started GET "/img/project1.jpg" for ::1 at 2017-01-26 13:16:59 +0200
 Started GET "/img/project4.jpg" for ::1 at 2017-01-26 13:16:59 +0200
-  
-  
-  
-  
-  
+
+
+
+
+
 ActionController::RoutingError (No route matches [GET] "/min/custom-min.js"):
 ActionController::RoutingError (No route matches [GET] "/img/project2.jpeg"):
 ActionController::RoutingError (No route matches [GET] "/img/project3.png"):
 ActionController::RoutingError (No route matches [GET] "/img/project1.jpg"):
 ActionController::RoutingError (No route matches [GET] "/img/project4.jpg"):
-  
-  
-  
-  
-  
+
+
+
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4333,15 +4333,15 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7156.1ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8557.9ms)
 Started GET "/img/project5.png" for ::1 at 2017-01-26 13:17:24 +0200
-  
-  
-  
-  
+
+
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Light.woff2"):
 ActionController::RoutingError (No route matches [GET] "/img/project5.png"):
 ActionController::RoutingError (No route matches [GET] "/assets/font/material-design-icons/Material-Design-Icons.woff2"):
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.woff2"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4373,9 +4373,9 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
-  
-  
+
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4407,7 +4407,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4466,7 +4466,7 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Thin.woff2"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4506,13 +4506,13 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16716.5ms)
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/fonts/fontawesome-webfont.woff"):
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Bold.woff2"):
-  
-  
-  
+
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/material-design-icons/Material-Design-Icons.woff"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -4576,7 +4576,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4608,10 +4608,10 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Light.woff"):
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Thin.woff"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -4644,7 +4644,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4678,10 +4678,10 @@ puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 Started GET "/pages" for ::1 at 2017-01-26 13:18:31 +0200
 Processing by PagesController#index as HTML
-  
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.woff"):
-  
-  
+
+
   Rendering pages/index.html.erb within layouts/application
 ActionController::RoutingError (No route matches [GET] "/assets/fonts/fontawesome-webfont.ttf"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
@@ -4716,8 +4716,8 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered pages/index.html.erb within layouts/application (1.0ms)
-  
-  
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4750,8 +4750,8 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Bold.woff"):
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/material-design-icons/Material-Design-Icons.ttf"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -4784,7 +4784,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4820,16 +4820,16 @@ Completed 200 OK in 20103ms (Views: 19644.0ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/img/project6.jpeg" for ::1 at 2017-01-26 13:18:55 +0200
-  
-  
-  
+
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Thin.ttf"):
 ActionController::RoutingError (No route matches [GET] "/img/project6.jpeg"):
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Light.ttf"):
-  
-  
-  
-  
+
+
+
+
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Bold.ttf"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -4919,8 +4919,8 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
-  
+
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4953,7 +4953,7 @@ puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
 ActionController::RoutingError (No route matches [GET] "/assets/font/roboto/Roboto-Regular.ttf"):
-  
+
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
@@ -4994,11 +4994,11 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16103.4ms)
 Started GET "/min/plugin-min.css" for ::1 at 2017-01-26 13:19:25 +0200
-  
+
 Started GET "/min/custom-min.css" for ::1 at 2017-01-26 13:19:26 +0200
 ActionController::RoutingError (No route matches [GET] "/min/plugin-min.css"):
-  
-  
+
+
 ActionController::RoutingError (No route matches [GET] "/min/custom-min.css"):
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -5026,7 +5026,7 @@ puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
 puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
+
 Started GET "/pages" for ::1 at 2017-01-26 13:19:27 +0200
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -5223,514 +5223,269 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 134ms (Views: 120.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for ::1 at 2017-01-26 13:40:37 +0200
-Started GET "/" for ::1 at 2017-01-26 13:40:38 +0200
-Processing by PagesController#index as HTML
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (5.0ms)
-  Rendered pages/index.html.erb within layouts/application (7.0ms)
-Completed 500 Internal Server Error in 846ms (ActiveRecord: 0.0ms)
 
-
-  
-ActionView::Template::Error (Permission denied @ utime_failed - D:/Git/final_project/tmp/cache/assets/sprockets/v3.0/hX/hXTqqNPAj6s74fPZI5jcRc-ZpA9oPmUMQ2nE_7fYLVU.cache):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1066356854_49097976'
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (15.5ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1500.3ms)
-Completed 500 Internal Server Error in 8043ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1066356854_49097976'
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1235.6ms)
-Started GET "/pages/" for ::1 at 2017-01-26 13:41:10 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (1.0ms)
-Completed 500 Internal Server Error in 533ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1066356854_83512860'
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1449.4ms)
-Started GET "/" for ::1 at 2017-01-26 13:42:54 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (6.0ms)
-Completed 500 Internal Server Error in 1545ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___30771785_49012440'
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (29.5ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1768.7ms)
-Started GET "/" for ::1 at 2017-01-26 13:45:36 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (1.0ms)
-Started GET "/" for ::1 at 2017-01-26 13:45:36 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (1.0ms)
-Completed 500 Internal Server Error in 1139ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___30771785_82653720'
-Completed 500 Internal Server Error in 1035ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___30771785_83855100'
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.5ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1749.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (20.2ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
-  Rendering C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (4041.4ms)
-Started GET "/" for ::1 at 2017-01-26 16:55:34 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (11.8ms)
-Completed 500 Internal Server Error in 2067ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1055048541_47002728'
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1193.6ms)
-Started GET "/" for ::1 at 2017-01-26 16:57:37 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (3.0ms)
-Started GET "/" for ::1 at 2017-01-26 16:57:38 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (1.0ms)
-Completed 500 Internal Server Error in 1404ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__343883494_46946520'
-Completed 500 Internal Server Error in 1146ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (TypeError: Object doesn't support this property or method):
-    3:   <head>
-    4:     <title>FinalProject</title>
-    5:     <%= csrf_meta_tags %>
-    6:     <%= stylesheet_link_tag    'application' %>
-    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    8:   </head>
-    9: 
-  
-app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__343883494_77607372'
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.5ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1293.8ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (2383.8ms)
-Started GET "/" for ::1 at 2017-01-26 17:00:10 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (5.0ms)
-Completed 200 OK in 257ms (Views: 235.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/stylesheets/default.css" for ::1 at 2017-01-26 17:00:24 +0200
-  
-Started GET "/javascripts/default.js" for ::1 at 2017-01-26 17:00:24 +0200
-ActionController::RoutingError (No route matches [GET] "/stylesheets/default.css"):
-  
-actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
-web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
-rack (2.0.1) lib/rack/method_override.rb:22:in `call'
-rack (2.0.1) lib/rack/runtime.rb:22:in `call'
-activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
-rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
-railties (5.0.1) lib/rails/engine.rb:522:in `call'
-puma (3.6.2) lib/puma/configuration.rb:225:in `call'
-puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
-puma (3.6.2) lib/puma/server.rb:415:in `process_client'
-puma (3.6.2) lib/puma/server.rb:275:in `block in run'
-puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  
-ActionController::RoutingError (No route matches [GET] "/javascripts/default.js"):
-  
-actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
-web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
-rack (2.0.1) lib/rack/method_override.rb:22:in `call'
-rack (2.0.1) lib/rack/runtime.rb:22:in `call'
-activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
-rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
-railties (5.0.1) lib/rails/engine.rb:522:in `call'
-puma (3.6.2) lib/puma/configuration.rb:225:in `call'
-puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
-puma (3.6.2) lib/puma/server.rb:415:in `process_client'
-puma (3.6.2) lib/puma/server.rb:275:in `block in run'
-puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
-  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (8.3ms)
-  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (6.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (42.9ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.8ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3122.9ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2689.1ms)
-Started GET "/" for ::1 at 2017-01-26 17:05:33 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (3.0ms)
-Completed 200 OK in 324ms (Views: 289.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/stylesheets/default.css" for ::1 at 2017-01-26 17:05:47 +0200
-Started GET "/javascripts/default.js" for ::1 at 2017-01-26 17:05:47 +0200
-  
-  
-ActionController::RoutingError (No route matches [GET] "/stylesheets/default.css"):
-ActionController::RoutingError (No route matches [GET] "/javascripts/default.js"):
-  
-  
-actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
-web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
-rack (2.0.1) lib/rack/method_override.rb:22:in `call'
-rack (2.0.1) lib/rack/runtime.rb:22:in `call'
-activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
-rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
-railties (5.0.1) lib/rails/engine.rb:522:in `call'
-puma (3.6.2) lib/puma/configuration.rb:225:in `call'
-puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
-puma (3.6.2) lib/puma/server.rb:415:in `process_client'
-puma (3.6.2) lib/puma/server.rb:275:in `block in run'
-puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
-web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
-rack (2.0.1) lib/rack/method_override.rb:22:in `call'
-rack (2.0.1) lib/rack/runtime.rb:22:in `call'
-activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
-rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
-railties (5.0.1) lib/rails/engine.rb:522:in `call'
-puma (3.6.2) lib/puma/configuration.rb:225:in `call'
-puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
-puma (3.6.2) lib/puma/server.rb:415:in `process_client'
-puma (3.6.2) lib/puma/server.rb:275:in `block in run'
-puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
-  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (17.0ms)
-  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (7.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (469.5ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3852.2ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3409.6ms)
-Started GET "/" for ::1 at 2017-01-26 17:05:58 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (1.0ms)
-Completed 200 OK in 37ms (Views: 29.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/stylesheets/default.css" for ::1 at 2017-01-26 17:05:59 +0200
-  
-ActionController::RoutingError (No route matches [GET] "/stylesheets/default.css"):
-  
-actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
-web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
-rack (2.0.1) lib/rack/method_override.rb:22:in `call'
-rack (2.0.1) lib/rack/runtime.rb:22:in `call'
-activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
-rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
-railties (5.0.1) lib/rails/engine.rb:522:in `call'
-puma (3.6.2) lib/puma/configuration.rb:225:in `call'
-puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
-puma (3.6.2) lib/puma/server.rb:415:in `process_client'
-puma (3.6.2) lib/puma/server.rb:275:in `block in run'
-puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
-  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (11.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1811.6ms)
-Started GET "/javascripts/default.js" for ::1 at 2017-01-26 17:06:04 +0200
-  
-ActionController::RoutingError (No route matches [GET] "/javascripts/default.js"):
-  
-actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
-web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
-rack (2.0.1) lib/rack/method_override.rb:22:in `call'
-rack (2.0.1) lib/rack/runtime.rb:22:in `call'
-activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
-rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
-railties (5.0.1) lib/rails/engine.rb:522:in `call'
-puma (3.6.2) lib/puma/configuration.rb:225:in `call'
-puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
-puma (3.6.2) lib/puma/server.rb:415:in `process_client'
-puma (3.6.2) lib/puma/server.rb:275:in `block in run'
-puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
-  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [26 times] (6.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
-  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1778.8ms)
-Started GET "/" for ::1 at 2017-01-26 17:06:37 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (3.0ms)
-Completed 200 OK in 1463ms (Views: 1434.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2017-01-26 17:08:10 +0200
-Processing by PagesController#index as HTML
-  Rendering pages/index.html.erb within layouts/application
-  Rendered pages/index.html.erb within layouts/application (1.0ms)
-Completed 200 OK in 114ms (Views: 105.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2017-01-26 17:08:11 +0200
+Started GET "/" for ::1 at 2017-01-26 13:29:01 +0200
 Processing by PagesController#index as HTML
   Rendering pages/index.html.erb within layouts/application
   Rendered pages/index.html.erb within layouts/application (0.5ms)
-Completed 200 OK in 84ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 154ms (Views: 137.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for ::1 at 2017-01-26 17:08:11 +0200
+Started GET "/" for ::1 at 2017-01-26 13:30:30 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 264ms (Views: 243.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:31 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:33 +0200
 Processing by PagesController#index as HTML
   Rendering pages/index.html.erb within layouts/application
   Rendered pages/index.html.erb within layouts/application (1.0ms)
-Completed 200 OK in 82ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 137ms (Views: 123.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-01-26 13:30:33 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Started GET "/" for ::1 at 2017-01-26 13:30:33 +0200
+Completed 200 OK in 194ms (Views: 181.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 126ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:34 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:34 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Started GET "/" for ::1 at 2017-01-26 13:30:34 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 248ms (Views: 233.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 152ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:39 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 236ms (Views: 217.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:41 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 112ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:42 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:42 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 125ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:43 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 133ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:43 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 130ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:44 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 140ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:46 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:48 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Started GET "/" for ::1 at 2017-01-26 13:30:48 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 261ms (Views: 247.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 148ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:49 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 143ms (Views: 122.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:30:50 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 132ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:31:04 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 131ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:31:35 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 122ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:31:36 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 138ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:31:36 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Started GET "/" for ::1 at 2017-01-26 13:31:36 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 248ms (Views: 234.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 150ms (Views: 127.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:31:37 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:31:37 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:20 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:21 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:22 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:22 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:23 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 124ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:23 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 133ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:24 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Started GET "/" for ::1 at 2017-01-26 13:32:24 +0200
+Processing by PagesController#index as HTML
+Completed 200 OK in 237ms (Views: 218.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Started GET "/" for ::1 at 2017-01-26 13:32:24 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 297ms (Views: 276.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 163ms (Views: 142.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-26 13:32:25 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 128ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+>>>>>>> 525e132dcc2159f6c3b084ba4b3424210726cf88
