@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
   root 'pages#index'
   get 'test/new'
-  get '/welcome' => 'welcome#show'
+  get 'welcome/index' => 'welcome#show'
 
   resources :photos
   resources :pages
