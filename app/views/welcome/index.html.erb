@@ -1,49 +1,48 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<html>
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-	<link href="Vacation.css" rel="stylesheet" />
+    li {
+      float: left;
+    }
 
-	<title>FinalProject</title>
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
- <body id="welcome_page">
-	<header>
-		<div class="body"></div>
-		<div class="wrapper">
-	<header>
-		<!--The ButtonsNAV BAR-->
-	<nav>
-		<div class = "nav">
-			<div class= "myButton2">Logout</div>
-			<div class= "myButton">Settings</div>
-			<div class= "myButton">Roi Cohen</div>
-		</div>
-	</nav>
-	<!--our web photoASIDE-LEFT-->
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
 
-	<!--MAIN- The form_ 2 dives in one-->
-	<main>
-		<div class = "main">
-			<div class = "left">
-				<%=image_tag("upload2.jpg", :alt=>"upload.jpg")%>
+    .active {
 
-			</div>
-			<div class = "center">
-				<%=image_tag("upload2.jpg", :alt=>"upload2.jpg")%>
-			</div>
-			<div class = "right">
-				<%=image_tag("upload2.jpg", :alt=>"upload3.jpg")%>
+    }
+  </style>
+</head>
+<body>
 
-			</div>
-		</div>
-	</main>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li style="float:right"><a href="#logout">Logout</a></li>
+</ul>
 
-	<!--FOOTER-one div-->
-	</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-		<div class = "footer">
-        <h5>
-			All right reserved to Moria&Roi </br>7.2.17</br>
-			<a href = "https://https://en.wikipedia.org/wiki/Terms_of_service">
-			  Terms of Use
-		</h5>
 
-		</div>
-		</div>
-    </body>
+<div class="container">
+
+  <h1>Settings</h1>
+
+</div>
