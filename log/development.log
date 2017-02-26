@@ -7952,3 +7952,3525 @@ puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1507.5ms)
+Started GET "/" for ::1 at 2017-02-26 11:26:32 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 1492ms (Views: 1461.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:26:47 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 146ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:26:53 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 116ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:26:54 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 100ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:26:54 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 111ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Welcome/Sample" for ::1 at 2017-02-26 11:28:34 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Welcome/Sample"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (13.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (41.2ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1640.7ms)
+Started GET "/Welcome/" for ::1 at 2017-02-26 11:28:41 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Welcome"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (8.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1473.8ms)
+Started GET "/welcome/" for ::1 at 2017-02-26 11:28:47 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1469.2ms)
+Started GET "/welcome" for ::1 at 2017-02-26 11:28:54 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (9.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1532.2ms)
+Started GET "/" for ::1 at 2017-02-26 11:29:01 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 154ms (Views: 147.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:31:02 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 174ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:31:08 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 126ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:31:14 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:31:14 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:31:15 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:31:16 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 104ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 11:31:24 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 132ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 11:31:29 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 126ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:31:31 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:31:36 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:32:06 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 104ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:32:08 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:32:17 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:35:47 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:35:49 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:35:49 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:35:50 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:35:51 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:35:58 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 153ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:36:03 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:36:52 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:36:55 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:36:57 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 151ms (Views: 136.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:37:21 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 132ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:38:42 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1182ms (Views: 1170.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:39:34 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 114ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:40:17 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:40:21 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:40:31 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:40:34 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:40:40 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:40:40 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 247ms (Views: 225.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 180ms (Views: 164.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:40:41 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 113ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:41:14 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:43:57 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-26 11:51:28 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcom" for ::1 at 2017-02-26 11:51:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcom"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (11.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1487.6ms)
+Started GET "/welcome" for ::1 at 2017-02-26 11:51:42 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (10.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1438.9ms)
+Started GET "/welcome/index" for ::1 at 2017-02-26 11:51:54 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 133ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Vacation.css" for ::1 at 2017-02-26 11:51:54 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/Vacation.css"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (8.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1440.0ms)
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:24 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 212ms (Views: 200.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:27 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 136ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:27 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:28 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:28 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:28 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 100ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:29 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 116ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:29 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:29 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:30 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:30 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:55:32 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:57:35 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 207ms (Views: 193.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:58:46 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:59:45 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 184ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 11:59:53 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 282ms (Views: 266.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:00:01 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 162ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:00:02 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 140ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:00:51 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 123ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:00:52 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:00:53 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:00:53 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:02:36 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 182ms (Views: 168.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:03:08 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 282ms (Views: 269.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:03:20 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 207ms (Views: 195.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:03:39 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 176ms (Views: 163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:06:42 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 172ms (Views: 160.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:06:55 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 109ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:06:56 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:06:57 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:06:57 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:06:57 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 114ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos?id=5&random=Derek" for ::1 at 2017-02-26 12:06:58 +0200
+Processing by PhotosController#index as HTML
+  Parameters: {"id"=>"5", "random"=>"Derek"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for ::1 at 2017-02-26 12:07:12 +0200
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+Completed 406 Not Acceptable in 582ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.0.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
+actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.0.1) lib/abstract_controller/base.rb:188:in `process_action'
+actionpack (5.0.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.0.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.0.1) lib/active_support/callbacks.rb:126:in `call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+activesupport (5.0.1) lib/active_support/callbacks.rb:455:in `call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.1) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.1) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.1) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.1) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.1) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.1) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1424.2ms)
+Started GET "/photos" for ::1 at 2017-02-26 12:07:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 12:07:22 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 100ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:08:00 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 207ms (Views: 194.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 12:08:01 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 105ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2017-02-26 12:08:06 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 128ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Vacation.css" for ::1 at 2017-02-26 12:08:06 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/Vacation.css"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (8.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1493.0ms)
+Started GET "/photos" for ::1 at 2017-02-26 12:09:13 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 127ms (Views: 111.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:41 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 117ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 102ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:57 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 104ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:57 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:09:57 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:10:01 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:10:01 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:10:03 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:10:03 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 117ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:10:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:10:34 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 171ms (Views: 156.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:11:12 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 183ms (Views: 170.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 12:11:14 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 122ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2017-02-26 12:11:18 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 133ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Vacation.css" for ::1 at 2017-02-26 12:11:18 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/Vacation.css"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1469.4ms)
+Started GET "/photos" for ::1 at 2017-02-26 12:12:02 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 176ms (Views: 163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:12:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 184ms (Views: 170.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:13:14 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:14:45 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:14:47 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:14:47 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:15:15 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:15:24 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 134ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:15:26 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:15:26 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:15:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 12:15:56 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 114ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:17:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:17:45 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 108ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:17:46 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:18:26 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 259ms (Views: 244.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 12:18:28 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 119ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2017-02-26 12:18:30 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 127ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Vacation.css" for ::1 at 2017-02-26 12:18:30 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/Vacation.css"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (14.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1523.0ms)
+Started GET "/photos" for ::1 at 2017-02-26 12:21:47 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 106ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:21:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:21:49 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 111ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:21:49 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:21:49 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:21:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:21:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:22:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 100ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:22:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:22:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 122ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:22:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:22:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 126ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:11 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 305ms (Views: 287.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:14 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:14 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:15 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:15 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 117ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:16 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:16 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 124ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:16 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 131ms (Views: 118.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:16 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 98.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:54:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 12:54:21 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 12:54:23 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 112ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:02 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 119ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 144ms (Views: 130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 107ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:09 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 125ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:09 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 127ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 100ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:37 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 164ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:52 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:52 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:52 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:53 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:56:53 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:29 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:31 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 101ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:31 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 104ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:31 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:32 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:32 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:33 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 127ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:40 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:41 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:42 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:42 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:42 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 162ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:42 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 137ms (Views: 132.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:43 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:44 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 104ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:53 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:53 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 103ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 12:59:54 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 121ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:33 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:33 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:34 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 123ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:34 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:35 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:35 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:36 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 112ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 102ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 116ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:02:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 109ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:03:28 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:03:29 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:03:29 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:03:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:03:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:54 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 104ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:54 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:55 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:55 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 101ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:57 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:57 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 100ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:58 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:05:58 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 100ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:09:27 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:13:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 195ms (Views: 182.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:13:41 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 190ms (Views: 177.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:14:01 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 188ms (Views: 175.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:14:22 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 185ms (Views: 172.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:14:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:15:34 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 255ms (Views: 240.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:16:11 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 116ms (Views: 104.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:16:21 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:16:29 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:16:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 141ms (Views: 127.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:17:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:18:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:18:58 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:18:58 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:18:59 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:00 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 215ms (Views: 169.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:00 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:00 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 160ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:08 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:09 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 152ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 117ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:11 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:11 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:12 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:19:12 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:21:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:21:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:21:32 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:21:33 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 110ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:21:34 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:21:34 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:21:35 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:21:57 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 139ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:22:11 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 121ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:26:12 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (328.0ms)
+Completed 200 OK in 535ms (Views: 522.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:26:21 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 124ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:27:07 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 188ms (Views: 176.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:27:45 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:29:12 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 144ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:29:13 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 123ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:29:16 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:29:17 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:29:17 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:29:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:29:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:29:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 240ms (Views: 226.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:29:31 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 122ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 13:29:33 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 115ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:32:13 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 450ms (Views: 436.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:32:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 225ms (Views: 210.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:33:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 189ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 13:33:33 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 159ms (Views: 147.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 14:11:02 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 277ms (Views: 254.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:33:47 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 245ms (Views: 221.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:34:24 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 224ms (Views: 211.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:35:58 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 279ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:36:36 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:36:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:37:28 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 228ms (Views: 212.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:37:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 253ms (Views: 239.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:37:58 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 255ms (Views: 242.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:38:12 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 202ms (Views: 189.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:38:13 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:38:14 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:38:20 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 299ms (Views: 280.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:38:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 193ms (Views: 179.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:38:42 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 200ms (Views: 180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:38:45 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:39:12 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:41:01 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 194ms (Views: 177.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:41:10 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 122ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:41:31 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 201ms (Views: 188.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:42:16 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 188ms (Views: 175.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:42:26 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 187ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:42:35 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 198ms (Views: 177.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:42:42 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 205ms (Views: 186.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:42:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 240ms (Views: 222.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:42:59 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:43:00 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:43:00 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Started GET "/photos" for ::1 at 2017-02-26 15:43:01 +0200
+Processing by PhotosController#index as HTML
+Completed 200 OK in 189ms (Views: 176.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:43:02 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:43:21 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:43:22 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:43:23 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:43:23 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 125ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2017-02-26 15:46:32 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.0ms)
+Started GET "/pages" for ::1 at 2017-02-26 15:46:34 +0200
+Completed 200 OK in 1613ms (Views: 1573.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2017-02-26 15:46:50 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 164ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+
+
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 258ms (Views: 212.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Vacation.css" for ::1 at 2017-02-26 15:46:51 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/Vacation.css"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (11.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (39.4ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1603.3ms)
+Started GET "/photos" for ::1 at 2017-02-26 15:47:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 236ms (Views: 227.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:47:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:47:22 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:47:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:47:40 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 119ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:48:02 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:48:02 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:52:25 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 368ms (Views: 355.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:52:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:52:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:53:54 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 287ms (Views: 274.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:53:55 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:53:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:53:56 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:53:57 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:53:58 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:17 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:19 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:19 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:22 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:22 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:23 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:23 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:24 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:54:24 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:55:28 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:55:36 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 113.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:55:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 138ms (Views: 124.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:55:53 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 143ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:55:53 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 165ms (Views: 150.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:55:53 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Started GET "/photos" for ::1 at 2017-02-26 15:55:54 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 358ms (Views: 339.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 237ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:02 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Started GET "/photos" for ::1 at 2017-02-26 15:56:05 +0200
+Processing by PhotosController#index as HTML
+Completed 200 OK in 220ms (Views: 205.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Started GET "/photos" for ::1 at 2017-02-26 15:56:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 318ms (Views: 299.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Started GET "/photos" for ::1 at 2017-02-26 15:56:05 +0200
+Completed 200 OK in 350ms (Views: 334.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by PhotosController#index as HTML
+Started GET "/photos" for ::1 at 2017-02-26 15:56:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 463ms (Views: 446.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:05 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+Started GET "/photos" for ::1 at 2017-02-26 15:56:06 +0200
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Processing by PhotosController#index as HTML
+Completed 200 OK in 554ms (Views: 537.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 502ms (Views: 480.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 392ms (Views: 368.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 241ms (Views: 214.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:06 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 165ms (Views: 147.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:12 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 142ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:13 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 157ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:17 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 159ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:17 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Started GET "/photos" for ::1 at 2017-02-26 15:56:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 284ms (Views: 262.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 153ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:21 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 137ms (Views: 122.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 111.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:47 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:47 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:56:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 115ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:57:26 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 226ms (Views: 212.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:58:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 190ms (Views: 178.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:59:46 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:59:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:59:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 136ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 15:59:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:00:30 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:01:36 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 188ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:02:15 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 225ms (Views: 212.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:02:17 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:02:17 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:02:18 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:02:26 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 408ms (Views: 390.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:02:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 264ms (Views: 245.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:08:24 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 226ms (Views: 212.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:08:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 154ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:08:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:08:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:10:48 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:10:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:10:50 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:10:51 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:10:59 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:11:27 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 193ms (Views: 181.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:11:45 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 206ms (Views: 193.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:12:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 249ms (Views: 237.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:13:11 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 247ms (Views: 235.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:13:22 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:13:46 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:17:24 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:04 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 208ms (Views: 196.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:06 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:06 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 134ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:36 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 187ms (Views: 174.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 110ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 133ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 149ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:18:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:21:32 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:21:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:21:39 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:21:40 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:22:25 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:22:27 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 16:22:31 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 115ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 16:22:31 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 115ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 16:22:33 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 117ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2017-02-26 16:22:33 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 120ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:22:45 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2017-02-26 16:23:27 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 135ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Vacation.css" for ::1 at 2017-02-26 16:23:27 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/Vacation.css"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (11.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1499.5ms)
+Started GET "/photos" for ::1 at 2017-02-26 16:23:31 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1134ms (Views: 814.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:33 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:35 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:35 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:36 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:37 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:37 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 110ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-02-26 16:23:38 +0200
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
