@@ -11,8 +11,9 @@
     <form class="login-form">
       <input type="text" placeholder="username"/>
       <input type="password" placeholder="password"/>
-      <button id="Blogin">login</button>
-
+      <button id="Blogin">
+        <%= link_to 'login',photos_path, id: 'Blogin' %>
+      </button>
       <p class="message">Not registered? <a href="?#">Create an account</a></p>
 
     </form>
