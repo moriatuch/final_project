@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'uploads/count_cells'
+
+  get 'uploads/compare_treatment'
+
+  get 'uploads/dna_damage'
+
   get 'users/new'
 
   get 'welcome/index'
