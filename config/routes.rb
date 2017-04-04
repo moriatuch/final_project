@@ -5,8 +5,7 @@ Rails.application.routes.draw do
 
   root 'pages#index'
   get 'test/new'
-  get 'welcome/index' => 'welcome#show'
-
+  get 'welcome/index'
   resources :photos
   resources :pages
   resources :test

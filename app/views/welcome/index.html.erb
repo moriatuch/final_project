@@ -40,9 +40,21 @@
   <li style="float:right"><a href="#logout">Logout</a></li>
 </ul>
 
+<%#
+       <%Ruby Code%>
+<%#   <%=Ruby with Output%>
+    <%#Comment%>
 
 <div class="container">
 
   <h1>Settings</h1>
-
+  <button id="b">Click</button>
+</br>
+  <%=link_to("Go to photos",
+             {:controller => 'photos',
+              :action => 'index'})%>
+  </br>
+  <%=link_to("Go to Pages",
+             {:controller => 'pages',
+              :action => 'index'})%>
 </div>
