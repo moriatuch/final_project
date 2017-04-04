@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'uploads/compare_treatment'
 
   get 'uploads/dna_damage'
-
+  get  'pages/about'
   get 'users/new'
 
   get 'welcome/index'
