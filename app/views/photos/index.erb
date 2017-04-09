@@ -3,45 +3,14 @@
 <% provide(:title, "Home") %>
 <html>
 <head>
-
-  <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
-
-    li {
-      float: left;
-    }
-
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    li a:hover:not(.active) {
-      background-color: #111;
-    }
-
-    .active {
-
-    }
-
-  </style>
 </head>
 <body>
 
-<ul>
-  <li><a href="#settings">Settings</a></li>
-  <li><a href="#contact">Contact</a></li>
+<ul id = 'header'>
+  <li><%= link_to 'Settings','#', class: 'btn' %></li>
+  <li><%= link_to 'Contact','#', class: 'btn' %></li>
   <li><%= link_to 'About',pages_about_path, class: 'btn' %></li>
-  <li style="float:right"><a href="#logout">Logout</a></li>
+  <li style="float:right"><%= link_to 'Log Out',pages_path, class: 'btn' %></li>
 </ul>
 
 
