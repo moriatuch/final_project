@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
 
   root 'pages#index'
+  get  'pages/about'
   get 'test/new'
   get 'welcome/index'
   resources :photos
