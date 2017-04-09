@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   root 'pages#index'
   get 'uploads/count_cells'
 
@@ -8,8 +10,6 @@ Rails.application.routes.draw do
   get 'pages/about'
 
   get 'welcome/index'
-
-
   get 'welcome/index'
   resources :photos
   resources :pages
