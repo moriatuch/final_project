@@ -1,16 +1,15 @@
 Rails.application.routes.draw do
+  root 'pages#index'
   get 'uploads/count_cells'
 
   get 'uploads/compare_treatment'
 
   get 'uploads/dna_damage'
-  get  'pages/about'
-  get 'users/new'
+  get 'pages/about'
 
   get 'welcome/index'
 
-  root 'pages#index'
-  get 'test/new'
+
   get 'welcome/index'
   resources :photos
   resources :pages
