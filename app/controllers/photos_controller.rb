@@ -1,4 +1,5 @@
 class PhotosController < ApplicationController
+  before_filter :authenticate_user!
   def index
     if (params.has_key?(:id) && params.has_key?(:random))
       @id=params['id']
@@ -14,7 +15,7 @@ class PhotosController < ApplicationController
   end
 
   def redirect_after_sign_in
-    link_to '/pages', '#',
+    link_to '/photos', '#',
             :onclick => 'alert("Please no!")'
   end
 

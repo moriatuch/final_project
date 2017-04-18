@@ -1,0 +1,15 @@
+<% provide(:title, "Log in") %>
+<div class="login-page">
+          <%=image_tag("welcome.png", :alt=>"welcome.png", class: "image")%>
+    <div class="form">
+
+    <%= form_for(:session, url: login_path) do |f| %>
+        <%= f.label :email %>
+        <%= f.email_field :email, class: 'form-control' , placeholder: "usernme" %>
+        <%= f.label :password %>
+        <%= f.password_field :password, class: 'form-control', placeholder: "password" %>
+
+        <%= f.submit "Log in", id: 'Blogin' %>
+        <% end %>
+    </div>
+</div>
