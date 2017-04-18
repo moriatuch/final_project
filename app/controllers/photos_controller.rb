@@ -14,7 +14,7 @@ class PhotosController < ApplicationController
   end
 
   def redirect_after_sign_in
-    link_to '/pages', '#',
+    link_to '/photos', '#',
             :onclick => 'alert("Please no!")'
   end
 
