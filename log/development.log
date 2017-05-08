@@ -16644,3 +16644,787 @@ Processing by UploadsController#count_cells as HTML
 Completed 200 OK in 104ms (Views: 94.9ms | ActiveRecord: 0.0ms)
 
 
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateResumes (20170508134957)
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "resumes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "attachment" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170508134957"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/" for ::1 at 2017-05-08 16:52:54 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (23403.6ms)
+Completed 200 OK in 24131ms (Views: 24079.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-08 16:54:05 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7NVZWfcTUNfMr372wHWc1c+P8dIPh0EU9L6RL07EzKp0AK34f2/FQ+yNF4+V8H/IrQWTqZGmqXfOph69mRVJIw==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 124ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:54:05 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+Completed 200 OK in 408ms (Views: 377.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:54:53 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+Completed 200 OK in 415ms (Views: 377.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 16:54:55 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 358ms (Views: 320.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 16:54:58 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 401ms (Views: 369.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 16:55:03 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GbDwaLr9W+tbdyMpoKeMWiyZIzBfMt6F5NsyuGVnwQRrO5fmcHK6AcxVwgiDLL8lkjfU3Zgn/2RpWravnWb5sw==", "resume"=>{"name"=>"", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xce29f08 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-1njt7j5.pdf>, @original_filename="CV-Roi Cohen.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"CV-Roi Cohen.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 400ms (Views: 360.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 16:55:09 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9K20ZTPsrqdnNJAVdf+6/WPQjOsYTSwYFq5bxo4iHJ1seEDEu5A7M0cW+WwgelngAVrukIZsxHssttRUWfOZFA==", "resume"=>{"name"=>"6534654654", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x8ecef00 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-3n7z62.jpg>, @original_filename="20150420_081941~2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"20150420_081941~2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "6534654654"], ["attachment", "20150420_081941_2.jpg"], ["created_at", 2017-05-08 13:55:09 UTC], ["updated_at", 2017-05-08 13:55:09 UTC]]
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 70ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 16:55:09 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 387ms (Views: 356.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 16:57:43 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 715ms (Views: 685.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-08 16:57:47 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 392ms (Views: 363.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-08 16:57:49 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0p/kFAJs5xFDZvepzjLM70yiLGSb6Mz3Yepi6iXj84xKShC1ihByhWNEntCbty/yLihOHwXJJJRb8u148jJ2BQ==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 87ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:57:50 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+Completed 200 OK in 327ms (Views: 299.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:58:19 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+Completed 200 OK in 743ms (Views: 716.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:58:22 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.0ms)
+Completed 200 OK in 501ms (Views: 457.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:58:23 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+Completed 200 OK in 389ms (Views: 353.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:58:25 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.5ms)
+Completed 200 OK in 422ms (Views: 378.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 16:58:26 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+Completed 200 OK in 373ms (Views: 338.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/2" for ::1 at 2017-05-08 16:58:27 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 300ms (Views: 271.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 16:58:31 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 362ms (Views: 326.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 17:00:03 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 380ms (Views: 350.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:00:06 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 470ms (Views: 438.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/resumes/1" for ::1 at 2017-05-08 17:00:11 +0300
+Processing by ResumesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"53DRQ+pkC5z9Nnc1/mwvxML1pChMLF3aICDopCOZ2xngoQd59sPYfjSUWzh7TbAtQdbblX6grW1HSUrhdW1zhg==", "id"=>"1"}
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT  "resumes".* FROM "resumes" WHERE "resumes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "resumes" WHERE "resumes"."id" = ?[0m  [["id", 1]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 12ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:00:11 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 395ms (Views: 357.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:00:14 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 386ms (Views: 358.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:00:21 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1aGqYjrWXmCzYbue+Kp6IBR+jxyWAzkCHRKVZmxVjhanKs3s8Fm/iiRDWr/bIUlfqtB48VEWGOOQkxFxlFS2oQ==", "resume"=>{"name"=>"sdfsd", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xb961f78 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-19p5zbx.docx>, @original_filename="Roi Cohen -CV.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"Roi Cohen -CV.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sdfsd"], ["attachment", "Roi_Cohen_-CV.docx"], ["created_at", 2017-05-08 14:00:21 UTC], ["updated_at", 2017-05-08 14:00:21 UTC]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 131ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:00:21 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 344ms (Views: 310.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:00:23 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 316ms (Views: 289.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:00:27 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6BN3deuvyApl1uZlrKlct4J838RO//dQqJAFhVni+WJKypTHSFeyr61uri1OZYNYKcEktYu3jzPI8QB7WazUg==", "resume"=>{"name"=>"dfsdffsfsd", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xb0dfbd0 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-9czsmu.pdf>, @original_filename="קורות חיים רועי כהן.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"\xD7\xA7\xD7\x95\xD7\xA8\xD7\x95\xD7\xAA \xD7\x97\xD7\x99\xD7\x99\xD7\x9D \xD7\xA8\xD7\x95\xD7\xA2\xD7\x99 \xD7\x9B\xD7\x94\xD7\x9F.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "dfsdffsfsd"], ["attachment", "___________________.pdf"], ["created_at", 2017-05-08 14:00:27 UTC], ["updated_at", 2017-05-08 14:00:27 UTC]]
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 73ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:00:27 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 405ms (Views: 364.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:21:36 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 867ms (Views: 825.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:23:15 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 552ms (Views: 525.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-08 17:23:18 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (24.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 455ms (Views: 410.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-08 17:23:21 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QOeDMJnyzhPMpjM2E+s5OL4SEUfNHylAT8JgNEAdqTzYMneREY5bh+yEWk9Gbtol3JhzPFM+wSN12u+ml8wstQ==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 88ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 17:23:21 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 472ms (Views: 422.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:23:34 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 397ms (Views: 367.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:24:25 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 447ms (Views: 406.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:24:31 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+Completed 200 OK in 520ms (Views: 486.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:26:34 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 492ms (Views: 447.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-08 17:26:37 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_shim.html.erb (9.0ms)
+Completed 200 OK in 647ms (Views: 617.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-08 17:26:40 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dXDShFmYpcyLnsmdSGHk2M7dHcqeGUoT57lE/c3aa7TtpSYl0eQwWKu8oOQd5AfFrFd/sQA4onDdoctvGgvuPQ==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 214ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 17:26:40 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 412ms (Views: 371.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:26:50 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 418ms (Views: 390.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:27:01 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 415ms (Views: 387.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:27:09 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5lNSsv/gG4NqZ/9VI89ucJvD7SHD/Ndz3xvU3sJrqn6U2DU8NW/6af1FHnQARF0PJW0azATp9pJSmlDJOmqSyQ==", "resume"=>{"name"=>"jghfjhtg", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xac70580 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-6nw6oy.docx>, @original_filename="CV-Roi Cohen.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"CV-Roi Cohen.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "jghfjhtg"], ["attachment", "CV-Roi_Cohen.docx"], ["created_at", 2017-05-08 14:27:09 UTC], ["updated_at", 2017-05-08 14:27:09 UTC]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 152ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:27:09 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 372ms (Views: 334.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/resumes/2" for ::1 at 2017-05-08 17:27:27 +0300
+Processing by ResumesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bjhl0fGMkGIzgG8VfSHEYU3VgA5i5+mDBZWk+owXLMr27ZFwefAF9hOiBmwopCd8L1/idfzGAeA/jStoW8apQw==", "id"=>"2"}
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT  "resumes".* FROM "resumes" WHERE "resumes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "resumes" WHERE "resumes"."id" = ?[0m  [["id", 2]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 12ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:27:27 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 425ms (Views: 389.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/resumes/3" for ::1 at 2017-05-08 17:27:29 +0300
+Processing by ResumesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7sKYJqagsNnHEDMvp3+V8K+kVkm9vo59j+0J+2v4ZUl2F2yHLtwlTecyWlby+nbtzS40MiOfZh619YZpvCngwA==", "id"=>"3"}
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT  "resumes".* FROM "resumes" WHERE "resumes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "resumes" WHERE "resumes"."id" = ?[0m  [["id", 3]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 14ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:27:29 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 342ms (Views: 308.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/resumes/4" for ::1 at 2017-05-08 17:27:30 +0300
+Processing by ResumesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"M0mdt/RpXd3+e/3BcTTDliEHVagKFgnZFacneMLEJsSrnGkWfBXISd5ZlLgksSCLQ40305Q34bovv6jqFRWjTQ==", "id"=>"4"}
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT  "resumes".* FROM "resumes" WHERE "resumes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "resumes" WHERE "resumes"."id" = ?[0m  [["id", 4]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 17ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:27:31 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 879ms (Views: 819.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:32:42 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 640ms (Views: 611.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:32:52 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 523ms (Views: 453.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:32:54 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 622ms (Views: 501.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:32:56 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 477ms (Views: 432.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-08 17:32:59 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 521ms (Views: 491.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-08 17:33:01 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FBJM6RAukXkS+rOcwDOxqlvLazOFvnWyenx84pM+2/eMx7hImFIE7TLY2uWVtlK3OUEJSBufndFAZPNwRO9efg==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 89ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 17:33:01 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 434ms (Views: 405.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:36:38 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 696ms (Views: 657.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:36:41 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 707ms (Views: 659.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:36:52 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yH4DZ981AMXKzabJJ6EK4OXZK+eqZX/0HmlWgQ+h03W69WTpFbrhL13vR+gEKjmfW3fcCm1wXhWT6NKW96Drwg==", "resume"=>{"name"=>"עקרונות", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xb952ca8 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-17mn3f6.PDF>, @original_filename="עקרונות התכנות בפייתון - סילבוס הקורס -    221999.PDF", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"\xD7\xA2\xD7\xA7\xD7\xA8\xD7\x95\xD7\xA0\xD7\x95\xD7\xAA \xD7\x94\xD7\xAA\xD7\x9B\xD7\xA0\xD7\x95\xD7\xAA \xD7\x91\xD7\xA4\xD7\x99\xD7\x99\xD7\xAA\xD7\x95\xD7\x9F - \xD7\xA1\xD7\x99\xD7\x9C\xD7\x91\xD7\x95\xD7\xA1 \xD7\x94\xD7\xA7\xD7\x95\xD7\xA8\xD7\xA1 -    221999.PDF\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "עקרונות"], ["attachment", "_______________________-______________-____221999.PDF"], ["created_at", 2017-05-08 14:36:52 UTC], ["updated_at", 2017-05-08 14:36:52 UTC]]
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 90ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:36:52 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 406ms (Views: 360.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:36:56 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 1044ms (Views: 994.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:37:04 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+zhpXyUJ6meHcPsnKGkJ3i+J02oJMf5mm+1Q+FlRXzCJsw7R74YLjRBSGgYL4jqhkSckh84k34cWbNTvoVBnhw==", "resume"=>{"name"=>"asdas", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xb54ec68 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-186hnj.pdf>, @original_filename="CV-Roi Cohen.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"CV-Roi Cohen.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "asdas"], ["attachment", "CV-Roi_Cohen.pdf"], ["created_at", 2017-05-08 14:37:04 UTC], ["updated_at", 2017-05-08 14:37:04 UTC]]
+  [1m[35m (11.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 80ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:37:04 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 567ms (Views: 534.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:37:06 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 749ms (Views: 695.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:37:12 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cnp3QLjMOJnWRLoCVmaqpwPrH3V5mWgbnZQx4vXWUuR48RDOckPZc0FmWyN17ZnYvUXomL6MSfoQFbX1DddqUw==", "resume"=>{"name"=>"asdasdasdasdasdasdasdasdas", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xcfe8a40 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-fgrzlm.jpg>, @original_filename="20150420_081931~2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"20150420_081931~2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "asdasdasdasdasdasdasdasdas"], ["attachment", "20150420_081931_2.jpg"], ["created_at", 2017-05-08 14:37:12 UTC], ["updated_at", 2017-05-08 14:37:12 UTC]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 90ms (ActiveRecord: 10.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:37:12 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 448ms (Views: 410.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:39:42 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 815ms (Views: 786.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:39:52 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 753ms (Views: 713.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:40:01 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+Completed 200 OK in 830ms (Views: 790.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:40:12 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 739ms (Views: 711.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:40:25 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 786ms (Views: 742.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:40:31 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 415ms (Views: 385.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:40:55 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 576ms (Views: 528.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:41:34 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 704ms (Views: 657.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 17:41:39 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 575ms (Views: 545.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:41:41 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LZfra/uz/3TpLivOs2tE0l+QO2P5xvJLBmBydfEnacJfHIzlMTwenn4Myu+Q4Het4T7Mjj7T06qL4fZiCSZRdQ==", "resume"=>{"name"=>""}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.5ms)[0m  [1m[31mrollback transaction[0m
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 702ms (Views: 694.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 17:41:49 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1y6gcc3jnuQspuMJyvVITLyHl10wnjuXCQ0diJ1FEtNP+1TQRZ8LcAyEinCfcKtR3g31Jq6/0/QzFZIaSpSXWg==", "resume"=>{"name"=>"sdfs", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xac40070 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-6572-o1mypp.jpg>, @original_filename="20150420_081941~2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"20150420_081941~2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sdfs"], ["attachment", "20150420_081941_2.jpg"], ["created_at", 2017-05-08 14:41:49 UTC], ["updated_at", 2017-05-08 14:41:49 UTC]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 99ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:41:49 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 435ms (Views: 392.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:42:09 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 679ms (Views: 638.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:42:18 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 861ms (Views: 825.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:42:25 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 745ms (Views: 708.4ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/resumes/5" for ::1 at 2017-05-08 17:42:29 +0300
+Processing by ResumesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3ZAYoGSD/uxv4QxCrYJteumbrUw9WD1vMn9f8cqYRfpFRewB7P9reE/DZTv4B45nixHPN6N51QwIZ9BjHUnAcw==", "id"=>"5"}
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT  "resumes".* FROM "resumes" WHERE "resumes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "resumes" WHERE "resumes"."id" = ?[0m  [["id", 5]]
+  [1m[35m (77.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 135ms (ActiveRecord: 79.1ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 17:42:29 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 636ms (Views: 536.3ms | ActiveRecord: 0.5ms)
+
+
