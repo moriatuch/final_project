@@ -18502,3 +18502,1519 @@ puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1656.6ms)
+Started GET "/" for ::1 at 2017-05-08 18:56:24 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2711.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 3289ms (Views: 3238.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-08 18:57:17 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"USgH0Ixwgl3hOW2+golNy5BsNH5WJFa0Dzr6YCZppJ7J/fNxBAwXycEbBMfXDK7W8uZWBcgFvtc1InXy8bghFw==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 125ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 18:57:17 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (362.6ms)
+Completed 500 Internal Server Error in 471ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `uploads_compare_treatment_path' for #<#<Class:0xa3aa978>:0xa3a9e50>):
+    22: 
+    23:   <br>
+    24:   <div class="content">
+    25:           <%= link_to 'Compare Between Cells',uploads_compare_treatment_path, class: 'btn' %>
+    26:   </div>
+    27:    <br>
+    28: 
+  
+app/views/photos/index.erb:25:in `_app_views_photos_index_erb__435435589_85809000'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1219.6ms)
+Started GET "/count/" for ::1 at 2017-05-08 18:57:58 +0300
+Processing by CountController#index as HTML
+  Rendering count/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.5ms)
+  [1m[36mCOUNT Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered count/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 614ms (Views: 565.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 18:58:01 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (387.7ms)
+Completed 500 Internal Server Error in 491ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `uploads_compare_treatment_path' for #<#<Class:0xa3aa978>:0xb95cb30>):
+    22: 
+    23:   <br>
+    24:   <div class="content">
+    25:           <%= link_to 'Compare Between Cells',uploads_compare_treatment_path, class: 'btn' %>
+    26:   </div>
+    27:    <br>
+    28: 
+  
+app/views/photos/index.erb:25:in `_app_views_photos_index_erb__435435589_97183908'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1208.8ms)
+Started GET "/photos" for ::1 at 2017-05-08 18:59:02 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 898ms (Views: 801.1ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/uploads/compare_treatment" for ::1 at 2017-05-08 18:59:05 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:UploadsController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/uploads_controller.rb:2)
+Processing by UploadsController#compare_treatment as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/compare_treatment.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered uploads/compare_treatment.html.erb within layouts/application (27.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 565ms (Views: 526.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 18:59:06 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 854ms (Views: 799.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/count/" for ::1 at 2017-05-08 18:59:09 +0300
+Processing by CountController#index as HTML
+  Rendering count/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  [1m[36mCOUNT Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered count/index.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 689ms (Views: 653.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/count/" for ::1 at 2017-05-08 18:59:09 +0300
+Processing by CountController#index as HTML
+  Rendering count/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  [1m[36mCOUNT Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered count/index.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 509ms (Views: 470.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 18:59:11 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 510ms (Views: 473.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/uploads/dna_damage" for ::1 at 2017-05-08 18:59:13 +0300
+Processing by UploadsController#dna_damage as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/dna_damage.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered uploads/dna_damage.html.erb within layouts/application (38.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 581ms (Views: 535.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 18:59:14 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 868ms (Views: 828.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/count/" for ::1 at 2017-05-08 18:59:18 +0300
+Processing by CountController#index as HTML
+  Rendering count/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.5ms)
+  [1m[36mCOUNT Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered count/index.html.erb within layouts/application (29.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 510ms (Views: 481.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 18:59:23 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 499ms (Views: 469.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/uploads/compare_treatment" for ::1 at 2017-05-08 18:59:25 +0300
+Processing by UploadsController#compare_treatment as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/compare_treatment.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered uploads/compare_treatment.html.erb within layouts/application (31.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 893ms (Views: 866.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 18:59:27 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 522ms (Views: 454.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/count" for ::1 at 2017-05-08 18:59:32 +0300
+Processing by CountController#index as HTML
+  Rendering count/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCOUNT Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered count/index.html.erb within layouts/application (28.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 559ms (Views: 529.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/count/new" for ::1 at 2017-05-08 18:59:33 +0300
+Processing by CountController#new as HTML
+  Rendering count/new.html.erb within layouts/application
+  Rendered count/new.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 522ms (Views: 458.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/count/new" for ::1 at 2017-05-08 18:59:39 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/count/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (18.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1637.2ms)
+Started GET "/count/" for ::1 at 2017-05-08 19:04:11 +0300
+Processing by CountController#index as HTML
+  Rendering count/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  [1m[36mCOUNT Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered count/index.html.erb within layouts/application (29.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 617ms (Views: 587.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/count/new" for ::1 at 2017-05-08 19:04:14 +0300
+Processing by CountController#new as HTML
+  Rendering count/new.html.erb within layouts/application
+  Rendered count/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 853ms (Views: 821.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/count/new" for ::1 at 2017-05-08 19:04:18 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/count/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (17.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1604.3ms)
+Started GET "/count/" for ::1 at 2017-05-08 19:04:36 +0300
+Processing by CountController#index as HTML
+  Rendering count/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCOUNT Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered count/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 481ms (Views: 453.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/count/new" for ::1 at 2017-05-08 19:04:38 +0300
+Processing by CountController#new as HTML
+  Rendering count/new.html.erb within layouts/application
+  Rendered count/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 746ms (Views: 714.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 19:04:43 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered dna/new.html.erb within layouts/application (171.1ms)
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `dnas_path' for #<#<Class:0xb36a6a8>:0xb369a90>
+Did you mean?  dna_path):
+    11: <% end %>
+    12: 
+    13: <div class = "well">
+    14:   <%= form_for @dna, html: { multipart: true } do |f| %>
+    15:       <%= f.label :name %>
+    16:       <%= f.text_field :name %>
+    17:       <%= f.label :attachment %>
+  
+app/views/dna/new.html.erb:14:in `_app_views_dna_new_html_erb__960898973_94066188'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1227.0ms)
+Started GET "/dna/new" for ::1 at 2017-05-08 20:35:55 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered dna/new.html.erb within layouts/application (526.4ms)
+Completed 500 Internal Server Error in 780ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `dnas_path' for #<#<Class:0xb36a6a8>:0xd280b08>
+Did you mean?  dna_path):
+    11: <% end %>
+    12: 
+    13: <div class = "well">
+    14:   <%= form_for @dna, html: { multipart: true } do |f| %>
+    15:       <%= f.label :name %>
+    16:       <%= f.text_field :name %>
+    17:       <%= f.label :attachment %>
+  
+app/views/dna/new.html.erb:14:in `_app_views_dna_new_html_erb__960898973_110364816'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+Started GET "/dna" for ::1 at 2017-05-08 20:35:58 +0300
+Processing by DnaController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (39.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering dna/index.html.erb within layouts/application
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (1.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (743.6ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (2326.4ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 9552ms (Views: 9459.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 20:36:16 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered dna/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 818ms (Views: 779.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 20:36:27 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (27.7ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2187.9ms)
+Started GET "/dna" for ::1 at 2017-05-08 20:37:16 +0300
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (1.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (40.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 752ms (Views: 708.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 20:37:20 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered dna/new.html.erb within layouts/application (41.0ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+Completed 200 OK in 871ms (Views: 793.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/count/new" for ::1 at 2017-05-08 20:37:30 +0300
+Processing by CountController#new as HTML
+  Rendering count/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered count/new.html.erb within layouts/application (44.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 867ms (Views: 819.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/count/new" for ::1 at 2017-05-08 20:37:36 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/count/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (34.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2553.0ms)
+Started GET "/dna/new" for ::1 at 2017-05-08 20:38:47 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered dna/new.html.erb within layouts/application (39.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 840ms (Views: 792.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 20:38:52 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2198.4ms)
+Started GET "/dna/new" for ::1 at 2017-05-08 20:40:58 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered dna/new.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 777ms (Views: 734.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 20:41:04 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (23.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2165.1ms)
+Started GET "/dna/" for ::1 at 2017-05-08 20:46:17 +0300
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (1.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (43.7ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 751ms (Views: 712.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 20:46:24 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered dna/new.html.erb within layouts/application (45.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 899ms (Views: 856.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 20:46:30 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (23.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2395.5ms)
+Started POST "/dna/new" for ::1 at 2017-05-08 20:48:10 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (30.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+Started GET "/dna/" for ::1 at 2017-05-08 20:48:14 +0300
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2716.7ms)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (0.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (40.0ms)
+Started POST "/dna/new" for ::1 at 2017-05-08 20:48:19 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (33.0ms)
+Completed 200 OK in 3928ms (Views: 3868.3ms | ActiveRecord: 2.0ms)
+
+
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3362.8ms)
+Started GET "/dna" for ::1 at 2017-05-08 20:48:34 +0300
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (0.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 723ms (Views: 684.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 20:48:37 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered dna/new.html.erb within layouts/application (309.7ms)
+Completed 500 Internal Server Error in 494ms (ActiveRecord: 3.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `dnas_path' for #<#<Class:0x9b4c8d0>:0xa843cb0>
+Did you mean?  dna_path):
+    13: <% end %>
+    14: 
+    15: <div class = "well">
+    16:   <%= form_for @dna, html: { multipart: true } do |f| %>
+    17:       <%= f.label :name %>
+    18:       <%= f.text_field :name %>
+    19:       <%= f.label :attachment %>
+  
+app/views/dna/new.html.erb:16:in `_app_views_dna_new_html_erb__960898973_58900860'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1783.9ms)
+Started GET "/count/new" for ::1 at 2017-05-08 20:48:50 +0300
+Processing by CountController#new as HTML
+  Rendering count/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered count/new.html.erb within layouts/application (39.4ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+Completed 200 OK in 861ms (Views: 807.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/count/new" for ::1 at 2017-05-08 20:48:59 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/count/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2536.0ms)
+Started GET "/dna/new" for ::1 at 2017-05-08 20:49:52 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered dna/new.html.erb within layouts/application (45.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 851ms (Views: 810.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 20:49:59 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (30.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2381.1ms)
+Started GET "/resumes/new" for ::1 at 2017-05-08 20:50:46 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered resumes/new.html.erb within layouts/application (40.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 871ms (Views: 817.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 20:50:54 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQMOHYeHYNUVsNgriMKaRIeEpCrMun5rmZDMX6402KQV1vq8D/v1QTWSsVLdR3lZ5Q7GUVKblgijiEPNeeVdLQ==", "resume"=>{"name"=>"dfsdfs", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xa38acf8 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-9028-1497py2.jpg>, @original_filename="20150420_081941~2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"20150420_081941~2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Save"}
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "dfsdfs"], ["attachment", "20150420_081941_2.jpg"], ["created_at", 2017-05-08 17:50:54 UTC], ["updated_at", 2017-05-08 17:50:54 UTC]]
+  [1m[35m (27.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 185ms (ActiveRecord: 31.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 20:50:54 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mResume Load (0.5ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (57.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 787ms (Views: 706.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 20:51:15 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+Completed 200 OK in 828ms (Views: 732.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/2" for ::1 at 2017-05-08 20:51:21 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 864ms (Views: 817.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 20:51:23 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 1169ms (Views: 881.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/uploads/compare_treatment" for ::1 at 2017-05-08 20:51:26 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:UploadsController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/uploads_controller.rb:2)
+Processing by UploadsController#compare_treatment as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/compare_treatment.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered uploads/compare_treatment.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 976ms (Views: 824.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 20:51:29 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 794ms (Views: 731.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 20:51:32 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (55.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 819ms (Views: 767.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resumes/new" for ::1 at 2017-05-08 20:51:39 +0300
+Processing by ResumesController#new as HTML
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered resumes/new.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 748ms (Views: 710.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/resumes" for ::1 at 2017-05-08 20:51:43 +0300
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vOvKcQE5Y3fh81Xv3J8mSugLq0h34qcfJ6qv7n6RLMjOYK3/y7aCnXbRtM7/FBU1VqVcpbD3hv6qKyv5hpAUfw==", "resume"=>{"name"=>"dfsdfs", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xa694910 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-9028-ekc2z5.doc>, @original_filename="כתב המלצה רועי כהן (ירושלים).pdf.doc", @content_type="application/msword", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"\xD7\x9B\xD7\xAA\xD7\x91 \xD7\x94\xD7\x9E\xD7\x9C\xD7\xA6\xD7\x94 \xD7\xA8\xD7\x95\xD7\xA2\xD7\x99 \xD7\x9B\xD7\x94\xD7\x9F (\xD7\x99\xD7\xA8\xD7\x95\xD7\xA9\xD7\x9C\xD7\x99\xD7\x9D).pdf.doc\"\r\nContent-Type: application/msword\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resumes" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "dfsdfs"], ["attachment", "____________________________.pdf.doc"], ["created_at", 2017-05-08 17:51:43 UTC], ["updated_at", 2017-05-08 17:51:43 UTC]]
+  [1m[35m (13.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 87ms (ActiveRecord: 14.5ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 20:51:43 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  [1m[36mResume Load (1.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (54.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 799ms (Views: 731.2ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/resumes/10" for ::1 at 2017-05-08 20:51:48 +0300
+Processing by ResumesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hlxu7YxiYyRf9BTnisLsERIztyGSeFIa4G8biApfxPEeiZpMBB72sH/WfZ7fRw8McLnVWgxZunnad5Qa3Y5BeA==", "id"=>"10"}
+  [1m[36mResume Load (1.0ms)[0m  [1m[34mSELECT  "resumes".* FROM "resumes" WHERE "resumes"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "resumes" WHERE "resumes"."id" = ?[0m  [["id", 10]]
+  [1m[35m (13.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/resumes
+Completed 302 Found in 28ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/resumes" for ::1 at 2017-05-08 20:51:48 +0300
+Processing by ResumesController#index as HTML
+  Rendering resumes/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mResume Load (0.0ms)[0m  [1m[34mSELECT "resumes".* FROM "resumes"[0m
+  Rendered resumes/index.html.erb within layouts/application (63.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 733ms (Views: 678.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-08 20:52:10 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (66.7ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 878ms (Views: 814.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-08 20:52:13 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fIQW+8QkhweXMEtckiJ62+VR+VgH4Vz7CLxZlPaBdwrkUeJaTFgSk7cSIiXHp5nGh9ubI5nAtJgypNYGIVDygw==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 102ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 20:52:14 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 1204ms (Views: 1149.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/uploads/compare_treatment" for ::1 at 2017-05-08 20:52:19 +0300
+Processing by UploadsController#compare_treatment as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/compare_treatment.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered uploads/compare_treatment.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 691ms (Views: 644.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/uploads/compare_treatment" for ::1 at 2017-05-08 20:54:17 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:UploadsController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/uploads_controller.rb:2)
+Processing by UploadsController#compare_treatment as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/compare_treatment.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered uploads/compare_treatment.html.erb within layouts/application (46.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 892ms (Views: 827.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/dna/" for ::1 at 2017-05-08 20:54:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dna"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (21.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2088.7ms)
+Started GET "/dna/" for ::1 at 2017-05-08 21:54:45 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  [1m[36mDNA Load (1.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (41.6ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 627ms (Views: 571.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 21:54:50 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered dna/new.html.erb within layouts/application (247.4ms)
+Completed 500 Internal Server Error in 336ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `dnas_path' for #<#<Class:0xa694bb0>:0xa7f1f78>
+Did you mean?  dna_path):
+    13: <% end %>
+    14: 
+    15: <div class = "well">
+    16:   <%= form_for @dna, html: { multipart: true } do |f| %>
+    17:       <%= f.label :name %>
+    18:       <%= f.text_field :name %>
+    19:       <%= f.label :attachment %>
+  
+app/views/dna/new.html.erb:16:in `_app_views_dna_new_html_erb__960898973_88052436'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1277.4ms)
+Started GET "/dna/" for ::1 at 2017-05-08 21:55:06 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (1.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 491ms (Views: 454.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 21:55:09 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered dna/new.html.erb within layouts/application (201.0ms)
+Completed 500 Internal Server Error in 315ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `dnas_path' for #<#<Class:0xb623038>:0x6e34bd0>
+Did you mean?  dna_path):
+    13: <% end %>
+    14: 
+    15: <div class = "well">
+    16:   <%= form_for @dna, html: { multipart: true } do |f| %>
+    17:       <%= f.label :name %>
+    18:       <%= f.text_field :name %>
+    19:       <%= f.label :attachment %>
+  
+app/views/dna/new.html.erb:16:in `_app_views_dna_new_html_erb__960898973_57781644'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1240.8ms)
+Started GET "/dna/" for ::1 at 2017-05-08 21:55:30 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (0.5ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (31.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 545ms (Views: 509.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 21:55:33 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered dna/new.html.erb within layouts/application (46.9ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 853ms (Views: 821.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 21:55:38 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [66 times] (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1620.4ms)
+Started GET "/dna/" for ::1 at 2017-05-08 21:56:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dna"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [62 times] (17.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1658.6ms)
+Started GET "/dna/" for ::1 at 2017-05-08 21:56:24 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  [1m[36mDNA Load (0.5ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (71.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 704ms (Views: 667.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 21:56:27 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered dna/new.html.erb within layouts/application (34.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 574ms (Views: 541.6ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/dna" for ::1 at 2017-05-08 21:56:31 +0300
+Processing by DnaController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nQ7Osjc2WbLdVYhI0+yekX7/2sH3Zu4aV50iGtsnjGVhp05n0xDE1kJdtf9NWShY3axwzesBCG4hmFYYbopL0w==", "dna"=>{"name"=>"ghfh", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xb561b08 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-9028-2op48z.pdf>, @original_filename="CV-Roi Cohen.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"dna[attachment]\"; filename=\"CV-Roi Cohen.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered dna/new.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 543ms (Views: 515.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna" for ::1 at 2017-05-08 21:56:37 +0300
+Processing by DnaController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dgNZlTNGcdduGRBrGpZ+aou9gAFlhpQsAODRSyR0US7u1q00uzrkQ047eRJPE5136TfievunfE86+F7Z86XUpw==", "dna"=>{"name"=>"gfhfgh", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x90e6b80 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-9028-a606r3.PDF>, @original_filename="גליון ציונים.PDF", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"dna[attachment]\"; filename=\"\xD7\x92\xD7\x9C\xD7\x99\xD7\x95\xD7\x9F \xD7\xA6\xD7\x99\xD7\x95\xD7\xA0\xD7\x99\xD7\x9D.PDF\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered dna/new.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 515ms (Views: 487.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-08 21:56:41 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 460ms (Views: 419.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dna" for ::1 at 2017-05-08 21:56:45 +0300
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mDNA Load (0.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 550ms (Views: 520.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 21:56:49 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered dna/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 546ms (Views: 517.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna" for ::1 at 2017-05-08 21:56:54 +0300
+Processing by DnaController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d6+9a5ssRY6QzlPkY/6uS5PLOHEtOG1P+4MjkHxux2uLBj2+fwrY6g/GblP9SxiCMJiSfTFfizuNhleSycMA3Q==", "dna"=>{"name"=>"hgfhfg", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x8de6928 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-9028-1eju5rh.pdf>, @original_filename="Roi Cohen -CV.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"dna[attachment]\"; filename=\"Roi Cohen -CV.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered dna/new.html.erb within layouts/application (29.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 568ms (Views: 541.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dna" for ::1 at 2017-05-08 21:57:22 +0300
+Processing by DnaController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D8aDsCo8WznZAy7HDfw020XY8zWOPOIrPUeMQMkzVpGXE3cRokDOrfkhR75YedfGJ1KRThAdCkgHXwPSHuLTGA==", "dna"=>{"name"=>"asdasd", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xa513398 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170508-9028-k8v7cz.docx>, @original_filename="CV-Roi Cohen.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"dna[attachment]\"; filename=\"CV-Roi Cohen.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Save"}
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered dna/new.html.erb within layouts/application (31.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 657ms (Views: 618.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dna" for ::1 at 2017-05-08 21:58:16 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (1.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (30.9ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 517ms (Views: 482.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 21:58:18 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered dna/new.html.erb within layouts/application (21.7ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 521ms (Views: 475.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 21:58:22 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [67 times] (17.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1571.2ms)
+Started POST "/dna/new" for ::1 at 2017-05-08 21:58:53 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (17.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1642.3ms)
+Started GET "/dna" for ::1 at 2017-05-08 21:58:57 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by DnaController#index as HTML
+  Rendering dna/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mDNA Load (0.0ms)[0m  [1m[34mSELECT "dnas".* FROM "dnas"[0m
+  Rendered dna/index.html.erb within layouts/application (31.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 574ms (Views: 537.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dna/new" for ::1 at 2017-05-08 21:59:04 +0300
+Processing by DnaController#new as HTML
+  Rendering dna/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered dna/new.html.erb within layouts/application (64.7ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 608ms (Views: 562.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/dna/new" for ::1 at 2017-05-08 21:59:11 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/dna/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [65 times] (20.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1637.7ms)

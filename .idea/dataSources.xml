@@ -7,7 +7,10 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:my_database_test</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\RoiCohen\Dropbox\לימודים\פרויקט גמר\Final Project\final_project\db\test.sqlite3</jdbc-url>
+      <explain-plan-config>
+        <provider>com.intellij.database.plan.postgres.PostgresExplainPlanProvider</provider>
+      </explain-plan-config>
     </data-source>
     <data-source source="LOCAL" name="Rails final_project: development" uuid="ef0a5499-0963-4b0e-9cf9-085ffcfb36a6">
       <driver-ref>postgresql</driver-ref>
