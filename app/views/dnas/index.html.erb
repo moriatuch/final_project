@@ -1,0 +1,38 @@
+<% provide(:title, "Dna Cells") %>
+<%= render "layouts/header" %>
+<% if !flash[:notice].blank? %>
+    <div class = "alert alert-info">
+      <%= flash[:notice] %>
+    </div>
+<% end %>
+
+<br />
+
+<%= link_to "New Images", new_dna_path, class: "btn btn-primary" %>
+<br />
+<br />
+
+<table class = "table">
+
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Download Link</th>
+    <th> </th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @dnas.each do |dna| %>
+      <tr>
+        <td><%= dna.name  %></td>
+        <td><%= link_to "Download Image", dna.attachment_url %></td>
+        <td><%= button_to "Delete",  dna, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{dna.name}?" %></td>
+
+      </tr>
+
+
+  <% end %>
+  </tbody>
+
+</table>

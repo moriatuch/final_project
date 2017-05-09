@@ -1,0 +1,26 @@
+<% provide(:title, "Dna Cells") %>
+<%= render "layouts/header" %>
+<% if !@dna.errors.empty? %>
+    <div class = "alert alert-error">
+
+      <ul>
+        <% @dna.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+        <% end %>
+      </ul>
+
+    </div>
+<% end %>
+
+<div class = "uploadFile">
+  <%= form_for @dna, html: { multipart: true } do |f| %>
+      <font color="black">
+        <%= f.label :name %>
+        <%= f.text_field :name%>
+        <%= f.label :attachment %>
+        <%= f.file_field :attachment %>
+        <%= f.submit "Save", class: "btn btn-primary" %>
+        <%= link_to 'Back', url_for(:back),class: "btn btn-primary"  %>
+      </font>
+  <% end %>
+</div>
