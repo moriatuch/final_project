@@ -1,12 +1,39 @@
-<%= @user.name %>, <%= @user.email %>
 <% provide(:title, @user.name) %>
+<%= render "layouts/header" %>
 <div class="row">
   <aside class="col-md-4">
     <section class="user_info">
       <h1>
         <%= gravatar_for @user %>
         <%= @user.name %>
+        <%= @user.email %>
       </h1>
     </section>
   </aside>
 </div>
+
+
+<table class = "table">
+DNA IMAGES<br>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Download Link</th>
+    <th> </th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @dnas.each do |dna| %>
+      <tr>
+        <td><%= dna.name  %></td>
+        <td><%= link_to "Download Image", dna.attachment_url %></td>
+        <td><%= button_to "Delete",  dna, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{dna.name}?" %></td>
+
+      </tr>
+
+
+  <% end %>
+  </tbody>
+
+</table>
