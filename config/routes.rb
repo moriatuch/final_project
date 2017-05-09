@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'dnas/index'
+
+  get 'dnas/new'
+
+  get 'dnas/create'
+
+  get 'dnas/destroy'
+
   get 'compares/index'
 
   get 'compares/new'
@@ -35,5 +43,5 @@ Rails.application.routes.draw do
   resources :users
   resources :counts, only: [:index, :new, :create, :destroy]
   resources :compares, only: [:index, :new, :create, :destroy]
-
+  resources :dnas, only: [:index, :new, :create, :destroy]
 end
