@@ -20247,3 +20247,1531 @@ Processing by CountsController#index as HTML
 Completed 200 OK in 432ms (Views: 399.8ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/counts" for ::1 at 2017-05-09 16:20:51 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 489ms (Views: 459.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:21:07 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 433ms (Views: 407.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:22:24 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (29.0ms)
+Completed 500 Internal Server Error in 389ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "@import ": expected file to import (string or url()), was ""bootstrcount"):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    9:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  
+app/assets/stylesheets/counts.scss:4
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___93425570_78284436'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1214.2ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:22:40 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 624ms (Views: 593.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:23:23 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (31.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 611ms (Views: 571.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:23:26 +0300
+Processing by CountsController#new as HTML
+Started GET "/counts/new" for ::1 at 2017-05-09 16:23:26 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (125.9ms)
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (70.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 798ms (Views: 754.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 1068ms (Views: 962.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/counts" for ::1 at 2017-05-09 16:23:34 +0300
+Processing by CountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0h91xwwwZs2X9x7PbiFYeCGebR10o9doo4YdfDwV74lKgY88IZu4lQmV1bOkHvTANiD0yl/0HmsxuGiqgHXZOw==", "count"=>{"name"=>"adsdsaasd", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xbb7bae8 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170509-13096-1yrfopu.DOC>, @original_filename="תרגיל בית 1 הסבר הגשה.DOC", @content_type="application/msword", @headers="Content-Disposition: form-data; name=\"count[attachment]\"; filename=\"\xD7\xAA\xD7\xA8\xD7\x92\xD7\x99\xD7\x9C \xD7\x91\xD7\x99\xD7\xAA 1 \xD7\x94\xD7\xA1\xD7\x91\xD7\xA8 \xD7\x94\xD7\x92\xD7\xA9\xD7\x94.DOC\"\r\nContent-Type: application/msword\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "counts" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "adsdsaasd"], ["attachment", "__________1__________.DOC"], ["created_at", 2017-05-09 13:23:34 UTC], ["updated_at", 2017-05-09 13:23:34 UTC]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/counts
+Completed 302 Found in 160ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:23:34 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (29.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 399ms (Views: 370.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:24:08 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (46.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 633ms (Views: 596.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:25:01 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 488ms (Views: 460.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/counts" for ::1 at 2017-05-09 16:25:08 +0300
+Processing by CountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+QMrC9wzt4kJ2X1nCfxWL4Dx/7PKdJlgTR9d2MVq8HHm3bFnboKtdzfGGmp8JmzsEWYVLf+ZBtnHT8hM4SR02w==", "count"=>{"name"=>"sdfdsfds", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x90a0ce0 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170509-13096-1sm96bm.txt>, @original_filename="ססמא.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"count[attachment]\"; filename=\"\xD7\xA1\xD7\xA1\xD7\x9E\xD7\x90.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "counts" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sdfdsfds"], ["attachment", "____.txt"], ["created_at", 2017-05-09 13:25:08 UTC], ["updated_at", 2017-05-09 13:25:08 UTC]]
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/counts
+Completed 302 Found in 41ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:25:08 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 490ms (Views: 457.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:26:43 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (31.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 495ms (Views: 449.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:26:52 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 461ms (Views: 434.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 16:28:00 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 447ms (Views: 428.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:28:01 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (41.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 753ms (Views: 692.9ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/counts/1" for ::1 at 2017-05-09 16:28:02 +0300
+Processing by CountsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"sXYQTLeHvZxadHfwXmIpW6jlU9l5+gVGBlkO8QpxA862hNipx7CyIktzNUNzqUrYbN5VaPlALgR6KtCC8c7WDA==", "id"=>"1"}
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT  "counts".* FROM "counts" WHERE "counts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM "counts" WHERE "counts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/counts
+Completed 302 Found in 20ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:28:03 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (62.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 653ms (Views: 611.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:29:46 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (93.6ms)
+Completed 500 Internal Server Error in 277ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (private method `format' called for #<Count::ActiveRecord_Relation:0x6a2b370>):
+    26:   <% @counts.each do |count| %>
+    27: 
+    28:       <tr>
+    29:         <td><%= File.basename(@counts.format.path) %></td>
+    30:         <td><%= link_to "Download Image", count.attachment_url %></td>
+    31:         <td><%= button_to "Delete",  count, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{count.name}?" %></td>
+    32:       </tr>
+  
+app/views/counts/index.html.erb:29:in `block in _app_views_counts_index_html_erb__146247659_55661568'
+app/views/counts/index.html.erb:26:in `_app_views_counts_index_html_erb__146247659_55661568'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1307.1ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:31:05 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (57.5ms)
+Completed 500 Internal Server Error in 193ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `attachment' for nil:NilClass):
+    26:   <% @counts.each do |count| %>
+    27: 
+    28:       <tr>
+    29:         <td><%= File.basename(@count.attachment.path) %></td>
+    30:         <td><%= link_to "Download Image", count.attachment_url %></td>
+    31:         <td><%= button_to "Delete",  count, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{count.name}?" %></td>
+    32:       </tr>
+  
+app/views/counts/index.html.erb:29:in `block in _app_views_counts_index_html_erb__146247659_53772024'
+app/views/counts/index.html.erb:26:in `_app_views_counts_index_html_erb__146247659_53772024'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1140.2ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:31:15 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (64.0ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `attachment' for #<Count::ActiveRecord_Relation:0xb636cb8>):
+    26:   <% @counts.each do |count| %>
+    27: 
+    28:       <tr>
+    29:         <td><%= File.basename(@counts.attachment.path) %></td>
+    30:         <td><%= link_to "Download Image", count.attachment_url %></td>
+    31:         <td><%= button_to "Delete",  count, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{count.name}?" %></td>
+    32:       </tr>
+  
+app/views/counts/index.html.erb:29:in `block in _app_views_counts_index_html_erb__146247659_95531208'
+app/views/counts/index.html.erb:26:in `_app_views_counts_index_html_erb__146247659_95531208'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1229.8ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:31:32 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (42.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 568ms (Views: 532.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:31:59 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 717ms (Views: 664.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:32:15 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 460ms (Views: 422.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:32:30 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+Started GET "/counts" for ::1 at 2017-05-09 16:32:30 +0300
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+Processing by CountsController#index as HTML
+  Rendered counts/index.html.erb within layouts/application (137.6ms)
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<String:0x6e08980>):
+  Rendering counts/index.html.erb within layouts/application
+    26:   <% @counts.each do |count| %>
+    27: 
+    28:       <tr>
+    29:         <td><%= count.attachment.path.name  %></td>
+    30:         <td><%= link_to "Download Image", count.attachment_url %></td>
+    31:         <td><%= button_to "Delete",  count, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{count.name}?" %></td>
+    32:       </tr>
+  
+  Rendered layouts/_header.html.erb (0.0ms)
+app/views/counts/index.html.erb:29:in `block in _app_views_counts_index_html_erb__146247659_58180908'
+app/views/counts/index.html.erb:26:in `_app_views_counts_index_html_erb__146247659_58180908'
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (104.1ms)
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<String:0x6a42b48>):
+    26:   <% @counts.each do |count| %>
+    27: 
+    28:       <tr>
+    29:         <td><%= count.attachment.path.name  %></td>
+    30:         <td><%= link_to "Download Image", count.attachment_url %></td>
+    31:         <td><%= button_to "Delete",  count, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{count.name}?" %></td>
+    32:       </tr>
+  
+app/views/counts/index.html.erb:29:in `block in _app_views_counts_index_html_erb__146247659_56923332'
+app/views/counts/index.html.erb:26:in `_app_views_counts_index_html_erb__146247659_56923332'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (2341.7ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (2515.1ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:33:14 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (29.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 483ms (Views: 438.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:33:30 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 601ms (Views: 559.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:33:39 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 569ms (Views: 523.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/counts/3" for ::1 at 2017-05-09 16:34:02 +0300
+Processing by CountsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YtN3f4mr+za3jyw+QDdL0nEPUXIgcW0yHHIkEqWiFaR9De0TOxrhyImQSzM17XER4Ji77BWc8ouWIrGGgeyRDg==", "id"=>"3"}
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT  "counts".* FROM "counts" WHERE "counts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM "counts" WHERE "counts"."id" = ?[0m  [["id", 3]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/counts
+Completed 302 Found in 12ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:34:02 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 560ms (Views: 519.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:34:10 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 453ms (Views: 425.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:34:37 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 489ms (Views: 458.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:35:13 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (47.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 900ms (Views: 865.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:35:35 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered counts/new.html.erb within layouts/application (69.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 834ms (Views: 796.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:35:44 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (41.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 806ms (Views: 755.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:36:14 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 746ms (Views: 706.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:37:41 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (65.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 565ms (Views: 529.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:38:43 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (39.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 530ms (Views: 480.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:39:12 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (36.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 478ms (Views: 432.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:39:28 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (57.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 590ms (Views: 531.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/counts" for ::1 at 2017-05-09 16:39:33 +0300
+Processing by CountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JHWHrIgl4chs2SxqFTWLhW2IpByE4zp7ctDCLl5t+WQ7qx3AOpT7NlLGS2dg77FG/B9OgrEOpcL4gFe6eiN9zg==", "count"=>{"name"=>"sdfds"}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "counts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "sdfds"], ["created_at", 2017-05-09 13:39:33 UTC], ["updated_at", 2017-05-09 13:39:33 UTC]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/counts
+Completed 302 Found in 13ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:39:33 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 497ms (Views: 447.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:40:10 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (31.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 726ms (Views: 698.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:40:11 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (47.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 975ms (Views: 930.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:40:27 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered counts/new.html.erb within layouts/application (49.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 794ms (Views: 747.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:40:56 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (31.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 927ms (Views: 870.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:41:11 +0300
+Processing by CountsController#new as HTML
+Started GET "/counts/new" for ::1 at 2017-05-09 16:41:12 +0300
+  Rendering counts/new.html.erb within layouts/application
+Processing by CountsController#new as HTML
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (89.1ms)
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered counts/new.html.erb within layouts/application (56.0ms)
+Completed 500 Internal Server Error in 653ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/tmp/cache/assets/sprockets/v3.0/0V/0VisCJT_TA_5QA_8WwXdw0VKyztAihty1JUu70WdWQ4.cache.44420244.13096.732361, C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/tmp/cache/assets/sprockets/v3.0/0V/0VisCJT_TA_5QA_8WwXdw0VKyztAihty1JUu70WdWQ4.cache)):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    9:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___93425570_53425140'
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 1460ms (Views: 1410.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1724.3ms)
+Started GET "/counts/new" for ::1 at 2017-05-09 16:41:26 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (47.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 886ms (Views: 831.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:41:34 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered counts/new.html.erb within layouts/application (45.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 856ms (Views: 810.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:41:41 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (28.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 1170ms (Views: 1105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:42:13 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (40.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 777ms (Views: 726.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:42:33 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered counts/new.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 741ms (Views: 702.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:42:40 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (82.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 854ms (Views: 805.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:42:50 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered counts/new.html.erb within layouts/application (42.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 840ms (Views: 809.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:43:23 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 709ms (Views: 677.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:43:40 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 760ms (Views: 711.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:44:07 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (30.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 484ms (Views: 429.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:45:13 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (39.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 541ms (Views: 473.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:45:22 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (47.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 663ms (Views: 628.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:45:33 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (47.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 453ms (Views: 423.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:45:50 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (29.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 557ms (Views: 511.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:46:05 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (32.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 528ms (Views: 475.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:46:11 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 543ms (Views: 513.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:47:02 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered counts/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/views/counts/new.html.erb:21: syntax error, unexpected $undefined
+...freeze;@output_buffer.append=(\n f.file_field :attachment );...
+...                               ^):
+  
+app/views/counts/new.html.erb:21: syntax error, unexpected $undefined
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1157.0ms)
+Started GET "/counts/new" for ::1 at 2017-05-09 16:47:15 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered counts/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/views/counts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e;@output_buffer.append=("\n" f.file_field :attachment );@ou...
+...                               ^):
+  
+app/views/counts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1183.9ms)
+Started GET "/counts/new" for ::1 at 2017-05-09 16:47:26 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 523ms (Views: 481.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 16:47:36 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 508ms (Views: 477.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:47:38 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 504ms (Views: 471.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 16:48:09 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 606ms (Views: 561.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:48:10 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (59.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 797ms (Views: 727.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 16:48:12 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 580ms (Views: 531.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:48:13 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (50.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 561ms (Views: 518.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:48:14 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (46.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 668ms (Views: 626.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 16:48:18 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 576ms (Views: 537.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:52:53 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (45.9ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 634ms (Views: 592.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:52:54 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (41.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 761ms (Views: 702.7ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCompares (20170509135759)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "compares" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "attachment" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170509135759"]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/counts/new" for ::1 at 2017-05-09 17:09:34 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (34.5ms)
+Started GET "/photos" for ::1 at 2017-05-09 17:09:38 +0300
+  Rendered layouts/_shim.html.erb (1.5ms)
+Completed 200 OK in 9851ms (Views: 9796.8ms | ActiveRecord: 3.0ms)
+
+
+Started DELETE "/logout" for ::1 at 2017-05-09 17:09:44 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by SessionsController#destroy as HTML
+Processing by PhotosController#index as HTML
+  Parameters: {"authenticity_token"=>"x9IW52H00cIyrpVOIMK+80Vgm61wB6S8/MkAcUxX0OXYDIyL00XLPAyx8kNVGIQw1PdxM0XqOwV2mZXlaBlUTw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Started GET "/" for ::1 at 2017-05-09 17:09:44 +0300
+Processing by SessionsController#new as HTML
+  Rendering photos/index.erb within layouts/application
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (5.0ms)
+  Rendered sessions/new.html.erb within layouts/application (27.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 1833ms (Views: 1493.5ms | ActiveRecord: 4.0ms)
+
+
+Completed 200 OK in 1678ms (Views: 1373.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-09 17:10:45 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1365.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 2054ms (Views: 2009.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-09 17:11:07 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0QJDjlFSqizATyWF9FqoCaDfLjoUeEjeS5yr9dJ9So3O3Nni4+Ow0v5QQoiBgJLKMUjEpCGV12fBzD5h9jPOJw==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 109ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 17:11:07 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 501ms (Views: 473.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/compares" for ::1 at 2017-05-09 17:11:10 +0300
+Processing by ComparesController#index as HTML
+  Rendering compares/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCompare Load (0.5ms)[0m  [1m[34mSELECT "compares".* FROM "compares"[0m
+  Rendered compares/index.html.erb within layouts/application (41.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 727ms (Views: 684.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:11:13 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered compares/new.html.erb within layouts/application (18.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 535ms (Views: 503.4ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/compares" for ::1 at 2017-05-09 17:11:27 +0300
+Processing by ComparesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s5QzRVPQDDm5lEbAozT8KvI6q3+AYo45nUxSNkX80LtJPX6k5aAdSVLvTlBTq7n87OGGkc68js6S/dyyDmpbYA==", "compare"=>{"name"=>"in ccompare", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xaa21220 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170509-6108-1eyt7dx.pdf>, @original_filename="21_12_2016.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"compare[attachment]\"; filename=\"21_12_2016.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "compares" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "in ccompare"], ["attachment", "21_12_2016.pdf"], ["created_at", 2017-05-09 14:11:28 UTC], ["updated_at", 2017-05-09 14:11:28 UTC]]
+  [1m[35m (10.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/compares
+Completed 302 Found in 101ms (ActiveRecord: 11.5ms)
+
+
+Started GET "/compares" for ::1 at 2017-05-09 17:11:28 +0300
+Processing by ComparesController#index as HTML
+  Rendering compares/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCompare Load (0.0ms)[0m  [1m[34mSELECT "compares".* FROM "compares"[0m
+  Rendered compares/index.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 542ms (Views: 511.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 17:11:34 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 529ms (Views: 501.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 17:11:36 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.5ms)
+  [1m[36mCount Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (38.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 722ms (Views: 612.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 17:11:41 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 497ms (Views: 469.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares" for ::1 at 2017-05-09 17:12:47 +0300
+Processing by ComparesController#index as HTML
+  Rendering compares/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCompare Load (0.5ms)[0m  [1m[34mSELECT "compares".* FROM "compares"[0m
+  Rendered compares/index.html.erb within layouts/application (29.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 493ms (Views: 465.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:12:49 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered compares/new.html.erb within layouts/application (31.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 535ms (Views: 501.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compares" for ::1 at 2017-05-09 17:12:56 +0300
+Processing by ComparesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/5n+CHGKGMrs2C2dnppfhskcq8iY6yEUXUY1HAd5jO4FMLPpx/oJugejJQ1uBRpQ18eGJtY1IeNS97uYTO8HNQ==", "compare"=>{"name"=>"", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xbb04490 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170509-6108-aqfzpp.doc>, @original_filename="כתב המלצה רועי כהן (ירושלים).pdf.doc", @content_type="application/msword", @headers="Content-Disposition: form-data; name=\"compare[attachment]\"; filename=\"\xD7\x9B\xD7\xAA\xD7\x91 \xD7\x94\xD7\x9E\xD7\x9C\xD7\xA6\xD7\x94 \xD7\xA8\xD7\x95\xD7\xA2\xD7\x99 \xD7\x9B\xD7\x94\xD7\x9F (\xD7\x99\xD7\xA8\xD7\x95\xD7\xA9\xD7\x9C\xD7\x99\xD7\x9D).pdf.doc\"\r\nContent-Type: application/msword\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered compares/new.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 511ms (Views: 475.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compares" for ::1 at 2017-05-09 17:13:15 +0300
+Processing by ComparesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xzc8ubulnPRe6EtdpRcQZymSlzHvLpu9ctAFNykifpLY6abVCRSGCmD3LFDQzSqkuAV9r9rDBAT4gJCjDWz6OA==", "compare"=>{"name"=>"גדכחידלךכחיגדלךכיגדלך", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x6b74ff8 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170509-6108-13ric13.doc>, @original_filename="כתב המלצה רועי כהן (ירושלים).pdf.doc", @content_type="application/msword", @headers="Content-Disposition: form-data; name=\"compare[attachment]\"; filename=\"\xD7\x9B\xD7\xAA\xD7\x91 \xD7\x94\xD7\x9E\xD7\x9C\xD7\xA6\xD7\x94 \xD7\xA8\xD7\x95\xD7\xA2\xD7\x99 \xD7\x9B\xD7\x94\xD7\x9F (\xD7\x99\xD7\xA8\xD7\x95\xD7\xA9\xD7\x9C\xD7\x99\xD7\x9D).pdf.doc\"\r\nContent-Type: application/msword\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "compares" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "גדכחידלךכחיגדלךכיגדלך"], ["attachment", "____________________________.pdf.doc"], ["created_at", 2017-05-09 14:13:15 UTC], ["updated_at", 2017-05-09 14:13:15 UTC]]
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 3.0ms)
+
+
+  
+Errno::EACCES (Permission denied @ dir_s_rmdir - C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/public/uploads/tmp/1494339195-6108-0003-6283):
+  
+app/controllers/compares_controller.rb:13:in `create'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1202.7ms)
+Started GET "/compares" for ::1 at 2017-05-09 17:13:29 +0300
+Processing by ComparesController#index as HTML
+  Rendering compares/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCompare Load (0.0ms)[0m  [1m[34mSELECT "compares".* FROM "compares"[0m
+  Rendered compares/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 510ms (Views: 483.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:13:33 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered compares/new.html.erb within layouts/application (42.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 544ms (Views: 515.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compares" for ::1 at 2017-05-09 17:13:38 +0300
+Processing by ComparesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zo3/97haG8Sra5uZKqvpXnOm7pgKhVfDwJUYQ06gJJ40JLIWDioKtEAQkwnaNKyIbX3DdkRbVzTPJJbHBTavRQ==", "compare"=>{"name"=>"מכתב המלצה", "attachment"=>#<ActionDispatch::Http::UploadedFile:0xb74bee8 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170509-6108-1i5xbxj.pdf>, @original_filename="CV-Roi Cohen.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"compare[attachment]\"; filename=\"CV-Roi Cohen.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "compares" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "מכתב המלצה"], ["attachment", "CV-Roi_Cohen.pdf"], ["created_at", 2017-05-09 14:13:38 UTC], ["updated_at", 2017-05-09 14:13:38 UTC]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/compares
+Completed 302 Found in 58ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/compares" for ::1 at 2017-05-09 17:13:38 +0300
+Processing by ComparesController#index as HTML
+  Rendering compares/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCompare Load (0.0ms)[0m  [1m[34mSELECT "compares".* FROM "compares"[0m
+  Rendered compares/index.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 504ms (Views: 465.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares" for ::1 at 2017-05-09 17:16:58 +0300
+Processing by ComparesController#index as HTML
+  Rendering compares/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCompare Load (0.0ms)[0m  [1m[34mSELECT "compares".* FROM "compares"[0m
+  Rendered compares/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 534ms (Views: 500.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/count/" for ::1 at 2017-05-09 17:17:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/count"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [49 times] (17.9ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1610.0ms)
+Started GET "/" for ::1 at 2017-05-09 17:17:14 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 488ms (Views: 460.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-09 17:17:17 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tX6PtzE4+cj9CElHMVIw8Ec0lL2UbBLKLmqVxcKG/gOqoBXbg4njNsMXLkpEiAoz1qN+I6GBjXOkOgBR5sh6qQ==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 85ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 17:17:17 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 489ms (Views: 460.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 17:17:20 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 527ms (Views: 497.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 17:17:29 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered counts/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/views/counts/index.html.erb:29: syntax error, unexpected ':', expecting keyword_end
+'.freeze;         encoding: utf-8 
+                           ^):
+  
+app/views/counts/index.html.erb:29: syntax error, unexpected ':', expecting keyword_end
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1241.8ms)
+Started GET "/counts" for ::1 at 2017-05-09 17:18:10 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  [1m[36mCount Load (0.5ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (79.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 768ms (Views: 685.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 17:18:16 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered counts/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 244ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/views/counts/index.html.erb:1: syntax error, unexpected ':', expecting keyword_end
+...iew::OutputBuffer.new;encoding: utf-8 
+...                               ^):
+  
+app/views/counts/index.html.erb:1: syntax error, unexpected ':', expecting keyword_end
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1676.7ms)
+Started GET "/counts" for ::1 at 2017-05-09 17:18:25 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered counts/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/views/counts/index.html.erb:1: syntax error, unexpected tLABEL
+...output_buffer.append=(encoding: utf-8 );@output_buffer.safe_...
+...                               ^):
+  
+app/views/counts/index.html.erb:1: syntax error, unexpected tLABEL
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2133.3ms)
+Started GET "/counts" for ::1 at 2017-05-09 17:18:49 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (27.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 516ms (Views: 482.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:18:56 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 540ms (Views: 512.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:19:30 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (32.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 440ms (Views: 408.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:19:40 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (60.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 548ms (Views: 523.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:19:50 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 460ms (Views: 418.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:19:58 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered counts/new.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_shim.html.erb (4.0ms)
+Completed 200 OK in 541ms (Views: 499.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:20:07 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered counts/new.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 612ms (Views: 534.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:22:32 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered counts/new.html.erb within layouts/application (163.8ms)
+Completed 500 Internal Server Error in 396ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `red' for :name:Symbol):
+    14: 
+    15: <div class = "uploadFile">
+    16:   <%= form_for @count, html: { multipart: true } do |f| %>
+    17:       <%= f.label :name.red %>
+    18:   <%= f.text_field :name %>
+    19:       <%= f.label :attachment %>
+    20:       <%= f.file_field :attachment %>
+  
+app/views/counts/new.html.erb:17:in `block in _app_views_counts_new_html_erb___631143840_42948120'
+app/views/counts/new.html.erb:16:in `_app_views_counts_new_html_erb___631143840_42948120'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (2161.0ms)
+Started GET "/counts/new" for ::1 at 2017-05-09 17:22:51 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered counts/new.html.erb within layouts/application (66.5ms)
+Completed 500 Internal Server Error in 288ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1..3)):
+    14: 
+    15: <div class = "uploadFile">
+    16:   <%= form_for @count, html: { multipart: true } do |f| %>
+    17:       <%= f.label.red :name %>
+    18:   <%= f.text_field :name %>
+    19:       <%= f.label :attachment %>
+    20:       <%= f.file_field :attachment %>
+  
+app/views/counts/new.html.erb:17:in `block in _app_views_counts_new_html_erb___631143840_98988636'
+app/views/counts/new.html.erb:16:in `_app_views_counts_new_html_erb___631143840_98988636'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1373.4ms)
+Started GET "/counts/new" for ::1 at 2017-05-09 17:25:21 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered counts/new.html.erb within layouts/application (69.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 731ms (Views: 648.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 17:26:09 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 598ms (Views: 566.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares" for ::1 at 2017-05-09 17:26:11 +0300
+Processing by ComparesController#index as HTML
+  Rendering compares/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCompare Load (0.0ms)[0m  [1m[34mSELECT "compares".* FROM "compares"[0m
+  Rendered compares/index.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 518ms (Views: 489.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:26:19 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered compares/new.html.erb within layouts/application (37.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 619ms (Views: 591.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:28:05 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered compares/new.html.erb within layouts/application (46.0ms)
+Started GET "/compares/new" for ::1 at 2017-05-09 17:28:05 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (8.5ms)
+  Rendered compares/new.html.erb within layouts/application (76.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 1293ms (Views: 1238.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 1041ms (Views: 973.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:28:30 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered compares/new.html.erb within layouts/application (38.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 604ms (Views: 554.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:29:02 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered compares/new.html.erb within layouts/application (106.6ms)
+  Rendered layouts/_shim.html.erb (4.0ms)
+Completed 200 OK in 815ms (Views: 765.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compares/new" for ::1 at 2017-05-09 17:29:30 +0300
+Processing by ComparesController#new as HTML
+  Rendering compares/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered compares/new.html.erb within layouts/application (41.5ms)
+  Rendered layouts/_shim.html.erb (4.0ms)
+Completed 200 OK in 734ms (Views: 622.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 17:29:33 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 503ms (Views: 467.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 17:29:34 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 582ms (Views: 554.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 17:29:36 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered counts/new.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 592ms (Views: 561.9ms | ActiveRecord: 0.0ms)
+
+
