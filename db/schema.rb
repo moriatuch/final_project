@@ -12,12 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20170508150930) do
 
-  create_table "compares", force: :cascade do |t|
-    t.string   "name"
-    t.string   "attachment"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+  drop_table :compares
 
   create_table "counts", force: :cascade do |t|
     t.string   "name"
