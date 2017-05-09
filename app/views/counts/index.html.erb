@@ -12,9 +12,9 @@
 <br />
 <br />
 
-<table class = "table table-bordered table-striped">
+<table class = "table">
 
-  <thead>.
+  <thead>
   <tr>
     <th>Name</th>
     <th>Download Link</th>
@@ -26,7 +26,7 @@
   <% @counts.each do |count| %>
 
       <tr>
-        <td><%= count.name %></td>
+        <td><%= count.name  %></td>
         <td><%= link_to "Download Image", count.attachment_url %></td>
         <td><%= button_to "Delete",  count, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{count.name}?" %></td>
       </tr>

@@ -12,12 +12,15 @@
     </div>
 <% end %>
 
-<div class = "well">
+<div class = "uploadFile">
   <%= form_for @count, html: { multipart: true } do |f| %>
+      <br color="black">
       <%= f.label :name %>
-      <%= f.text_field :name %>
+  <%= f.text_field :name %>
       <%= f.label :attachment %>
+      </br>
       <%= f.file_field :attachment %>
       <%= f.submit "Save", class: "btn btn-primary" %>
+        </font-color>
   <% end %>
 </div>
