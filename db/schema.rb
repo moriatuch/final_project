@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20170509143617) do
     t.string   "attachment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.int "user_id"
   end
 
   create_table "counts", force: :cascade do |t|
@@ -24,6 +25,7 @@ ActiveRecord::Schema.define(version: 20170509143617) do
     t.string   "attachment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.int "user_id"
   end
 
   create_table "dnas", force: :cascade do |t|
@@ -31,6 +33,7 @@ ActiveRecord::Schema.define(version: 20170509143617) do
     t.string   "attachment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.int "user_id"
   end
 
   create_table "users", force: :cascade do |t|
