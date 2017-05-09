@@ -20018,3 +20018,232 @@ puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1637.7ms)
+Started GET "/" for ::1 at 2017-05-09 15:50:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (5680.3ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 6418ms (Views: 6349.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-09 15:51:07 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I5dpYHpycg+oPBpL7ifVbhF28aH+2Z30zOWPayMHR+U8SfMMyMNo8ZYjfUab/e+tgOEbP8s0Ak1GtRr/B0nDTw==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 132ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 15:51:08 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 448ms (Views: 401.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/uploads/dna_damage" for ::1 at 2017-05-09 15:51:10 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:UploadsController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/uploads_controller.rb:2)
+Processing by UploadsController#dna_damage as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/dna_damage.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered uploads/dna_damage.html.erb within layouts/application (46.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 511ms (Views: 445.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 15:51:12 +0300
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 397ms (Views: 363.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/uploads/count_cells" for ::1 at 2017-05-09 15:51:13 +0300
+Processing by UploadsController#count_cells as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering uploads/count_cells.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered uploads/count_cells.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 552ms (Views: 476.9ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCounts (20170509125523)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (5432.8ms)[0m  [1m[35mCREATE TABLE "counts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "attachment" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCounts (20170509125523)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "counts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "attachment" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170509125523"]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/photos" for ::1 at 2017-05-09 16:14:24 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 14251ms (Views: 14211.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:14:41 +0300
+Processing by CountsController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Count::AttachmentUploader):
+  
+app/models/count.rb:2:in `<class:Count>'
+app/models/count.rb:1:in `<top (required)>'
+app/controllers/counts_controller.rb:3:in `index'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1591.1ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:15:45 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by CountsController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Count::AttachmentUploader):
+  
+app/models/count.rb:2:in `<class:Count>'
+app/models/count.rb:1:in `<top (required)>'
+app/controllers/counts_controller.rb:3:in `index'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1252.4ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:15:58 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by CountsController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Count::AttachmentUploader):
+  
+app/models/count.rb:2:in `<class:Count>'
+app/models/count.rb:1:in `<top (required)>'
+app/controllers/counts_controller.rb:3:in `index'
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1182.1ms)
+Started GET "/counts" for ::1 at 2017-05-09 16:17:28 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/application_controller.rb:2)
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (7.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (41.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 1631ms (Views: 1578.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-09 16:17:45 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (53.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 554ms (Views: 526.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2017-05-09 16:17:49 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g8lu+GyYfBV6fK5DCnjm2Ht7dVijDSa/eRWsPj5gtoScF/SU3ilm60RjyU5/otwb6uyfxpbguQbzRTmqGi4yLg==", "session"=>{"email"=>"roizundak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "roizundak@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 106ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/photos" for ::1 at 2017-05-09 16:17:49 +0300
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:PhotosController> at C:/Users/RoiCohen/Dropbox/לימודים/פרויקט גמר/Final Project/final_project/app/controllers/photos_controller.rb:2)
+Processing by PhotosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering photos/index.erb within layouts/application
+  Rendered photos/index.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 452ms (Views: 423.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:17:52 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  [1m[36mCount Load (0.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (18.6ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+Completed 200 OK in 473ms (Views: 445.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/counts/new" for ::1 at 2017-05-09 16:18:03 +0300
+Processing by CountsController#new as HTML
+  Rendering counts/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered counts/new.html.erb within layouts/application (32.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 428ms (Views: 412.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/counts" for ::1 at 2017-05-09 16:18:22 +0300
+Processing by CountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tST+1dAP3GABfglVrRwabKX0CTSmNY4ZvhAqUSLqSo4tugQu/aQCOJ8cwilnI7bUskqQ441iRxosLl+Hnop8PA==", "count"=>{"name"=>"kk", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x901e840 @tempfile=#<Tempfile:C:/Users/RoiCohen/AppData/Local/Temp/RackMultipart20170509-13096-x2e0vw.DOC>, @original_filename="סילבוס.DOC", @content_type="application/msword", @headers="Content-Disposition: form-data; name=\"count[attachment]\"; filename=\"\xD7\xA1\xD7\x99\xD7\x9C\xD7\x91\xD7\x95\xD7\xA1.DOC\"\r\nContent-Type: application/msword\r\n">}, "commit"=>"Save"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "counts" ("name", "attachment", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "kk"], ["attachment", "______.DOC"], ["created_at", 2017-05-09 13:18:22 UTC], ["updated_at", 2017-05-09 13:18:22 UTC]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/counts
+Completed 302 Found in 87ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/counts" for ::1 at 2017-05-09 16:18:22 +0300
+Processing by CountsController#index as HTML
+  Rendering counts/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.0ms)
+  [1m[36mCount Load (1.0ms)[0m  [1m[34mSELECT "counts".* FROM "counts"[0m
+  Rendered counts/index.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 432ms (Views: 399.8ms | ActiveRecord: 1.0ms)
+
+
