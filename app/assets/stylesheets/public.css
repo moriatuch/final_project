@@ -242,11 +242,10 @@ font-size: 20px;
     cursor: pointer;
 }
 .form-control{
-  font-family: 'Trocchi';
-
+  font-family: 'Montserrat';
 }
 #Blogin {
-    font-family: 'Trocchi';
+    font-family: 'Montserrat';
   background: #4CAF50;
   font-size: 20px;
 
