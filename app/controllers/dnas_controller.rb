@@ -9,7 +9,7 @@ class DnasController < ApplicationController
 
   def create
     @dna = Dna.new(compare_params)
-
+    @dna.user_id = session["user_id"]
     if @dna.save
       redirect_to dnas_path, notice: "The image #{@dna.name} has been uploaded."
     else

@@ -9,7 +9,7 @@ class CountsController < ApplicationController
 
   def create
     @count = Count.new(count_params)
-
+    @count.user_id = session["user_id"]
     if @count.save
       redirect_to counts_path, notice: "The image #{@count.name} has been uploaded."
     else

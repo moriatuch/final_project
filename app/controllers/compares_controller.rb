@@ -9,7 +9,7 @@ class ComparesController < ApplicationController
 
   def create
     @compare = Compare.new(compare_params)
-
+    @compare.user_id = session["user_id"]
     if @compare.save
       redirect_to compares_path, notice: "The image #{@compare.name} has been uploaded."
     else
