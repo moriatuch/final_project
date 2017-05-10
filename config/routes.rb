@@ -44,4 +44,5 @@ Rails.application.routes.draw do
   resources :counts, only: [:index, :new, :create, :destroy]
   resources :compares, only: [:index, :new, :create, :destroy]
   resources :dnas, only: [:index, :new, :create, :destroy]
+
 end
