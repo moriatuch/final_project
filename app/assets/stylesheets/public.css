@@ -578,8 +578,11 @@ a.btn-small span.btn {
 
 }
 .table,th,td{
+    border-bottom-style: ridge;
     border: 1px solid gainsboro;
+
 }
+
 .uploadFile{
     margin-top: 2%;
     border: 1px solid gainsboro;

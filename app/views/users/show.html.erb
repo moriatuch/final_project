@@ -1,3 +1,4 @@
+
 <% provide(:title, @user.name) %>
 <%= render "layouts/header" %>
 <div class="row">
@@ -8,17 +9,15 @@
         <%= @user.name %>
         <%= @user.email %>
       </h1>
+      <%= @user.email %>
     </section>
   </aside>
 </div>
-
-
-<table class = "table">
-DNA IMAGES<br>
+<table class = "table"></br>
+DNA UPLOADS
   <thead>
   <tr>
     <th>Name</th>
-    <th>Download Link</th>
     <th> </th>
   </tr>
   </thead>
@@ -29,6 +28,50 @@ DNA IMAGES<br>
         <td><%= dna.name  %></td>
         <td><%= link_to "Download Image", dna.attachment_url %></td>
 
+      </tr>
+
+
+  <% end %>
+  </tbody>
+
+</table>
+</br>
+<table class = "table"></br>
+  COMPARE CELL UPLOADS
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th> </th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @compares.each do |compare| %>
+      <tr>
+        <td><%= compare.name  %></td>
+        <td><%= link_to "Download Image", compare.attachment_url %></td>
+      </tr>
+
+
+  <% end %>
+  </tbody>
+
+</table>
+</br>
+<table class = "table"></br>
+  COUNT CELLS UPLOADS
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th> </th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @counts.each do |counter| %>
+      <tr>
+        <td><%= counter.name  %></td>
+        <td><%= link_to "Download Image", counter.attachment_url %></td>
       </tr>
 
 
