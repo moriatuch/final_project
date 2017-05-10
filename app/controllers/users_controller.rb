@@ -3,6 +3,8 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @dnas = Dna.all
+    @counts = Count.all
+    @compares = Compare.all
   end
 
   def new
