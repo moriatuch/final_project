@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170509143617) do
+ActiveRecord::Schema.define(version: 20170510095413) do
 
   create_table "compares", force: :cascade do |t|
     t.string   "name"
     t.string   "attachment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.int "user_id"
+    t.integer  "user_id"
   end
 
   create_table "counts", force: :cascade do |t|
@@ -25,15 +25,23 @@ ActiveRecord::Schema.define(version: 20170509143617) do
     t.string   "attachment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.int "user_id"
+    t.integer  "user_id"
   end
 
   create_table "dnas", force: :cascade do |t|
     t.string   "name"
     t.string   "attachment"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.int "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+  end
+
+  create_table "tmp_table_name", id: false, force: :cascade do |t|
+    t.         "name"
+    t.string   "attachment"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "users", force: :cascade do |t|
