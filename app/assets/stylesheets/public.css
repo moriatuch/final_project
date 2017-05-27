@@ -579,5 +579,42 @@ a.btn-small span.btn {
     height: 20%;
     background-color: #BBB;
     border-radius: 5px 5px;
+}
+.skinny{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input, select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+.hidden{
+    display: none;
+}
+.back{
+    width: 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: red;
+    padding: 1%;
+    text-align: center;
+    color: white;
 }
