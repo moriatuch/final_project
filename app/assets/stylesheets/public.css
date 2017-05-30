@@ -618,3 +618,26 @@ input, select{
     text-align: center;
     color: white;
 }
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"]  {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    background-color: #2E2F30;
+}
+#s{
+ width: 5%;
+}
+.addIMGButtonSubmit{
+    margin-top: 1%;
+    float: right;
+    width: 20%;
+}
+.addIMGButtonBack{
+    margin-top: 1%;
+    float: left;
+    width: 20%;
+}

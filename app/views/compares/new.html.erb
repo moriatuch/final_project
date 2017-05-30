@@ -1,4 +1,4 @@
-<% provide(:title, "Compare Cells") %>
+<% provide(:title, "Compare Cells")%>
 <%= render "layouts/header" %>
 <% if !@compare.errors.empty? %>
     <div class = "alert alert-error">
@@ -14,13 +14,14 @@
 
 <div class = "skinny">
   <%= form_for @compare, html: { multipart: true } do |f| %>
-      <font color="black">
+      <div color="black">
       <%= f.label :name %>
       <%= f.text_field :name%>
       <%= f.label :attachment %>
       <%= f.file_field :attachment %>
-      <%= f.submit "Save", class: "button" %>
-        <%= link_to 'Back', url_for(:back),class: "back"  %>
+        <div class="addIMGButtonSubmit"><%= f.submit "Save", class: "btn btn-success" %></div>
+        <div class="addIMGButtonBack"><%= link_to 'Back', url_for(:back),class: "btn btn-danger"  %></div>
+      </div>
+      </div>
       </font>
   <% end %>
-</div>

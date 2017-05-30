@@ -9,6 +9,14 @@
 <br />
 
 <%= link_to "New Images", new_compare_path, class: "btn btn-primary" %>
+<button type="button" id="check_all" class="btn btn-info"><%="Check/Uncheck"%></button>
+<%= link_to "Send!", new_compare_path, class: "btn btn-success"%>
+<script>
+    $('#check_all').on("click", function(){
+        var cbxs = $('input[type="checkbox"]');
+        cbxs.prop("checked", !cbxs.prop("checked"));
+    });
+</script>
 <br />
 <br />
 
@@ -16,6 +24,7 @@
 
   <thead>
   <tr>
+    <th>ID</th>
     <th>Name</th>
     <th>Download Link</th>
     <th> </th>
@@ -26,6 +35,7 @@
   <% @compares.each do |compare| %>
 
       <tr>
+        <td id="s"><%= check_box_tag(:pet_cat) %></td>
         <td><%= compare.name  %></td>
         <td><%= link_to "Download Image", compare.attachment_url %></td>
         <td><%= button_to "Delete",  compare, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{compare.name}?" %></td>
