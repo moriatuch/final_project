@@ -13,10 +13,6 @@ body {
     width: 400px;
 
 }
-.image{
-
-}
-
 #welcome_page.body {
     position: absolute;
 }
@@ -155,7 +151,6 @@ body {
     border: 1px solid #4e6096;
     display: inline-block;
     cursor: pointer; /*Pointer for button*/
-    color: #ffffff;
     font-family: Arial;
     font-size: 20px;
     padding: 12px 57px;
@@ -189,32 +184,31 @@ body {
     margin: 0 auto 70px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     font-family: 'Trocchi';
 }
 
 ul#header {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+    background-color: #111;
 }
 
 .active {
@@ -223,7 +217,7 @@ li a:hover:not(.active) {
 
 
 .form input {
-font-size: 20px;
+    font-size: 20px;
     outline: 0;
     border-radius: 5%;
     background: #f2f2f2;
@@ -236,7 +230,7 @@ font-size: 20px;
 }
 
 .form button {
-  border-radius: 5%;
+    border-radius: 5%;
     text-transform: uppercase;
     outline: 0;
     background: #4CAF50;
@@ -248,12 +242,12 @@ font-size: 20px;
     cursor: pointer;
 }
 .form-control{
-  font-family: 'Montserrat';
+    font-family: 'Montserrat';
 }
 #Blogin {
     font-family: 'Montserrat';
-  background: #4CAF50;
-  font-size: 20px;
+    background: #4CAF50;
+    font-size: 20px;
 
 }
 .form button:hover, .form button:active, .form button:focus {
@@ -262,7 +256,6 @@ font-size: 20px;
 
 .form .message {
     margin: 15px 0 0;
-    color: #b3b3b3;
     font-size: 12px;
 }
 
@@ -297,8 +290,6 @@ font-size: 20px;
     margin: 0 0 15px;
     padding: 0;
     font-size: 36px;
-    font-weight: 300;
-    color: #1a1a1a;
 }
 
 .container .info span {
@@ -316,22 +307,13 @@ font-size: 20px;
 }
 
 body {
-    background: #76b852; /* fallback for old browsers */
-    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-    background: -moz-linear-gradient(right, #76b852, #8DC26F);
-    background: -o-linear-gradient(right, #76b852, #8DC26F);
-    background: linear-gradient(to left, #76b852, #8DC26F);
+
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 /*--------------------------------*/
-body {
-
-    background: url(https://pcbx.us/bexy.jpg);
-}
-
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -346,6 +328,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    color:black;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -372,6 +355,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    color:black;
 }
 
 body, html {
@@ -389,12 +373,11 @@ body {
 }
 
 .container {
-    background: url(https://pcbx.us/bexy.jpg);
     padding-top: 20px;
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: #ddd;
+
 }
 
 h1 {
@@ -580,12 +563,12 @@ a.btn-small span.btn {
 }
 .upload_table,th,td{
     border-collapse: collapse;
-    border: 1px solid #999999;
+    border: 1px solid black;
 
 }
 .table,th,td{
     border-bottom-style: ridge;
-    border: 1px solid gainsboro;
+    border: 1px solid black;
 
 }
 
@@ -596,5 +579,42 @@ a.btn-small span.btn {
     height: 20%;
     background-color: #BBB;
     border-radius: 5px 5px;
+}
+.skinny{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input, select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+.hidden{
+    display: none;
+}
+.back{
+    width: 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: red;
+    padding: 1%;
+    text-align: center;
+    color: white;
 }

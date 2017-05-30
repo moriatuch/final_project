@@ -34,13 +34,17 @@ Rails.application.routes.draw do
 
   get 'uploads/dna_damage'
 
+
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
+  get    '/contacts', to: 'contacts#new'
+
 
   resources :photos
   resources :test
   resources :users
+  resources :contacts, only: [:new, :create]
   resources :counts, only: [:index, :new, :create, :destroy]
   resources :compares, only: [:index, :new, :create, :destroy]
   resources :dnas, only: [:index, :new, :create, :destroy]
