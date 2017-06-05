@@ -1,16 +1,27 @@
 class ComparesController < ApplicationController
   def index
     @compares = Compare.all
+    @compares = Compare.order(:name)
+    respond_to do |format|
+      format.html
+      format.csv { send_data @compares.to_csv }
+      format.xls # { send_data @products.to_csv(col_sep: "\t") }
+    end
   end
 
   def new
     @compare = Compare.new
   end
 
+  def to_csv
+    Dir.chdir('/Sites/final_project/matlab')
+    `sqlite3.exe -csv C:/Sites/final_project\db\development.sqlite3 "SELECT * FROM dnas" > C:/Sites/final_project\ExcelTest.csv`
+  end
+
   def create
-    `cp #{params[:compare][:attachment].tempfile.path} D:/git/final_project/matlab/temp.png`
-    Dir.chdir('/git/final_project/matlab')
-    `matlab -nodesktop -wait  -r "compare_ver2('temp.png')";quit`
+    `cp #{params[:compare][:attachment].tempfile.path} C:/Sites/final_project/matlab/compare_temp.png`
+    Dir.chdir('/Sites/final_project/matlab')
+    `matlab -nodesktop -wait  -r "compare_ver2('compare_temp.png')";quit`
     output = File.read('myfile.txt')
     @compare = Compare.new(compare_params)
     @compare.user_id = session["user_id"]

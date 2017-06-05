@@ -1,6 +1,12 @@
 class DnasController < ApplicationController
   def index
     @dnas = Dna.all
+    @dnas = Dna.order(:name)
+    respond_to do |format|
+      format.html
+      format.csv { send_data @dnas.to_csv }
+      format.xls # { send_data @dnas.to_csv(col_sep: "\t") }
+    end
   end
 
   def new

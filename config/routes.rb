@@ -14,6 +14,8 @@ Rails.application.routes.draw do
   get 'compares/create'
 
   get 'compares/destroy'
+  
+  get 'compares/to_csv'
 
   get 'sessions/new'
 

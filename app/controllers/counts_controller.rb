@@ -1,6 +1,12 @@
 class CountsController < ApplicationController
   def index
     @counts = Count.all
+    @counts = Count.order(:name)
+    respond_to do |format|
+      format.html
+      format.csv { send_data @counts.to_csv }
+      format.xls # { send_data @counts.to_csv(col_sep: "\t") }
+    end
   end
 
   def new
@@ -8,10 +14,9 @@ class CountsController < ApplicationController
   end
 
   def create
-
-    `cp #{params[:count][:attachment].tempfile.path} D:/git/final_project/matlab/temp.png`
-    Dir.chdir('/git/final_project/matlab')
-    `matlab -nodesktop -wait  -r "Count_Cells('prototype_cells.png')";quit`
+    `cp #{params[:count][:attachment].tempfile.path} C:/Sites/final_project/matlab/count_temp`
+    Dir.chdir('/Sites/final_project/matlab')
+    `matlab -nodesktop -wait  -r "Count_Cells('count_temp')";quit`
     output = File.read('count_cell_result.txt')
     @count = Count.new(count_params)
     @count.user_id = session["user_id"]
@@ -21,7 +26,6 @@ class CountsController < ApplicationController
     else
       render "new"
     end
-
   end
 
   def destroy

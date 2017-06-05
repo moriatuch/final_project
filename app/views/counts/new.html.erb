@@ -16,7 +16,7 @@
   <%= form_for @count, html: { multipart: true } do |f| %>
       <font color="black">
         <%= f.label :name %>
-        <%= f.text_field :name%>
+        <%= f.text_field :name, :required => true%>
         <%= f.label :attachment %>
         <%= f.file_field :attachment %>
         <%= f.submit "Save", class: "button" %>
