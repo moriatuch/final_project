@@ -18,6 +18,7 @@
   <tr>
     <th>Name</th>
     <th>Download Link</th>
+    <th>Result after processing</th>
     <th> </th>
   </tr>
   </thead>
@@ -28,6 +29,7 @@
       <tr>
         <td><%= compare.name  %></td>
         <td><%= link_to "Download Image", compare.attachment_url %></td>
+        <td><%=compare.result%></td>
         <td><%= button_to "Delete",  compare, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{compare.name}?" %></td>
       </tr>
 

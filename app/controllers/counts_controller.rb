@@ -8,8 +8,14 @@ class CountsController < ApplicationController
   end
 
   def create
+
+    `cp #{params[:count][:attachment].tempfile.path} D:/git/final_project/matlab/temp.png`
+    Dir.chdir('/git/final_project/matlab')
+    `matlab -nodesktop -wait  -r "Count_Cells('prototype_cells.png')";quit`
+    output = File.read('count_cell_result.txt')
     @count = Count.new(count_params)
     @count.user_id = session["user_id"]
+    @count.result = output.to_i
     if @count.save
       redirect_to counts_path, notice: "The image #{@count.name} has been uploaded."
     else

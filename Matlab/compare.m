@@ -1,6 +1,6 @@
-I = imread('one-exp.png');
-igr=rgb2gray(I);
-p = sum(igr)
-p1 = smooth(p)
-plot(p1)
-
+compare(picName)
+    I=imread(picName);
+    igr=rgb2gray(I);
+    p = sum(igr)
+    y = smooth(p)
+    plot(y)
