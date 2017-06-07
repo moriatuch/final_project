@@ -13,6 +13,8 @@ YData=get(D,'YData'); %get the y data
 %Data=[XData;YData]; %join the x and y data on one array 2xn
 
 ans = fwhm(XData,YData)
-
+fileID = fopen('myfile.txt','w');
+fprintf(fileID,'%d\n',ans);
+fclose(fileID);
 %Data=[XData;YData]; %join the x and y data on one array 2xn
 end
