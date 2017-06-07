@@ -3,8 +3,11 @@ I=imread(picName);
 imshow(I);
 igr=rgb2gray(I);
 p = sum(igr)
-y = smooth(p)
+y = smooth(p, 7)
 plot(y)
+y = diff(y)
+y(1:7) = 0
+
 y_max = max(y)
 for n=1:length(y)
     if y(n) == y_max
