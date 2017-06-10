@@ -19,8 +19,11 @@
         <%= f.text_field :name ,:required => true%>
         <%= f.label :attachment %>
         <%= f.file_field :attachment ,:required => true%>
-        <%= f.submit "Save", class: "button" %>
-        <%= link_to 'Back', url_for(:back),class: "back"  %>
+        <%= f.submit "Save", class: "btn-lg btn-success" %> <br>
+        <%= link_to 'Back', url_for(:back),class: "btn btn-danger"  %>
+
+
+
       </font>
   <% end %>
 </div>
