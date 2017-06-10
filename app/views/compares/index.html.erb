@@ -27,6 +27,7 @@
     <th>ID</th>
     <th>Name</th>
     <th>Download Link</th>
+    <th>Result after processing</th>
     <th> </th>
   </tr>
   </thead>
@@ -38,6 +39,7 @@
         <td id="s"><%= check_box_tag(:pet_cat) %></td>
         <td><%= compare.name  %></td>
         <td><%= link_to "Download Image", compare.attachment_url %></td>
+        <td><%=compare.result%></td>
         <td><%= button_to "Delete",  compare, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{compare.name}?" %></td>
       </tr>
 
@@ -45,3 +47,5 @@
   </tbody>
 
 </table>
+<p>  <%= link_to "Excel", compares_path(format: "xls") , class: "btn btn-primary"%> </p>
+

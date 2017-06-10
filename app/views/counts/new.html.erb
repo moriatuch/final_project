@@ -16,11 +16,11 @@
   <%= form_for @count, html: { multipart: true } do |f| %>
       <font color="black">
         <%= f.label :name %>
-        <%= f.text_field :name%>
+        <%= f.text_field :name, :required => true%>
         <%= f.label :attachment %>
-        <%= f.file_field :attachment %>
-        <div class="addIMGButtonSubmit"><%= f.submit "Save", class: "btn btn-success" %></div>
-        <div class="addIMGButtonBack"><%= link_to 'Back', url_for(:back),class: "btn btn-danger"  %></div>
+        <%= f.file_field :attachment, :required => true %>
+        <%= f.submit "Save", class: "button" %>
+        <%= link_to 'Back', url_for(:back),class: "back"  %>
       </font>
   <% end %>
 </div>
