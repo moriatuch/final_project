@@ -18,7 +18,9 @@
   <tr>
     <th>Name</th>
     <th>Download Link</th>
-    <th>Result after processing</th>
+    <th>red rate</th>
+    <th>blue rate</th>
+    <th>blue/red</th>
     <th> </th>
   </tr>
   </thead>
@@ -28,6 +30,9 @@
       <tr>
         <td><%= dna.name  %></td>
         <td><%= link_to "Download Image",dna.attachment_url %></td>
+        <td><%=dna.red%></td>
+        <td><%=dna.blue%></td>
+        <td><%=dna.ratio%></td>
         <td><%= button_to "Delete",  dna, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{dna.name}?" %></td>
       </tr>
 
