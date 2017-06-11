@@ -25,7 +25,7 @@ class ComparesController < ApplicationController
     output = File.read('myfile.txt')
     @compare = Compare.new(compare_params)
     @compare.user_id = session["user_id"]
-    @compare.result = output.to_i
+    @compare.result = output.to_f
     if @compare.save
       redirect_to compares_path, notice: "The image #{@compare.name} has been uploaded."
     else

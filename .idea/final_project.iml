@@ -121,6 +121,7 @@
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.3, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.1.7, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.6, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbolinks (v5.0.1, ruby-2.2.4-p230) [gem]" level="application" />

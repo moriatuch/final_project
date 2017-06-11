@@ -10,14 +10,18 @@
         <Cell><Data ss:Type="String">ID</Data></Cell>
         <Cell><Data ss:Type="String">Name</Data></Cell>
         <Cell><Data ss:Type="String">Created At</Data></Cell>
-        <Cell><Data ss:Type="String">result</Data></Cell>
+        <Cell><Data ss:Type="String">rad</Data></Cell>
+        <Cell><Data ss:Type="String">blue</Data></Cell>
+        <Cell><Data ss:Type="String">ratio</Data></Cell>
       </Row>
     <% @dnas.each do |count| %>
       <Row>
         <Cell><Data ss:Type="Number"><%= dna.id %></Data></Cell>
         <Cell><Data ss:Type="String"><%= dna.name %></Data></Cell>
         <Cell><Data ss:Type="String"><%= dna.created_at %></Data></Cell>
-        <Cell><Data ss:Type="Number"><%= dna.result %></Data></Cell>
+        <Cell><Data ss:Type="Number"><%= dna.red %></Data></Cell>
+        <Cell><Data ss:Type="Number"><%= dna.blue %></Data></Cell>
+        <Cell><Data ss:Type="Number"><%= dna.ratio %></Data></Cell>
       </Row>
     <% end %>
     </Table>

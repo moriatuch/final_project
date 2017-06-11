@@ -17,8 +17,10 @@
       <font color="black">
         <%= f.label :name %>
         <%= f.text_field :name ,:required => true%>
-        <%= f.label :attachment %>
-        <%= f.file_field :attachment ,:required => true%>
+        <%= f.label :attachment1 %>
+        <%= f.file_field :attachment1 ,:required => true%>
+        <%= f.label :attachment2  %>
+        <%= f.file_field :attachment2 ,:required => true%>
         <%= f.submit "Save", class: "button" %>
         <%= link_to 'Back', url_for(:back),class: "back"  %>
       </font>
