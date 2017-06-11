@@ -34,7 +34,7 @@ class DnasController < ApplicationController
   end
 
   def destroy
-    @dna = dna.find(params[:id])
+    @dna = Dna.find(params[:id])
     @dna.destroy
     redirect_to dnas_path, notice:  "The image #{@dna.name} has been deleted."
   end
