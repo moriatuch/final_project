@@ -9,6 +9,14 @@
 <br />
 
 <%= link_to "New Images", new_count_path, class: "btn btn-primary" %>
+<button type="button" id="check_all" class="btn btn-info"><%="Check/Uncheck"%></button>
+<%= link_to "Send!", new_count_path, class: "btn btn-success"%>
+<script>
+    $('#check_all').on("click", function(){
+        var cbxs = $('input[type="checkbox"]');
+        cbxs.prop("checked", !cbxs.prop("checked"));
+    });
+</script>
 <br />
 <br />
 
@@ -16,6 +24,7 @@
 
   <thead>
   <tr>
+    <th>ID</th>
     <th>Name</th>
     <th>Download Link</th>
     <th>Number Of Cells</th>
@@ -26,6 +35,7 @@
   <tbody>
   <% @counts.each do |count| %>
       <tr>
+        <td id="s"><%= check_box_tag(:pet_cat) %></td>
         <td><%= count.name  %></td>
         <td><%= link_to "Download Image", count.attachment_url %></td>
         <td><%=count.result%></td>
