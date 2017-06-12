@@ -5,19 +5,14 @@ class PhotosController < ApplicationController
       @id=params['id']
       @random=params[:random]
     end
-
   end
 
   def sample
     @controller_message="Hello from controller"
-
-
   end
 
   def redirect_after_sign_in
     link_to '/photos', '#',
             :onclick => 'alert("Please no!")'
   end
-
-
 end

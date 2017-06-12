@@ -1,4 +1,5 @@
 class CountsController < ApplicationController
+  before_filter :authenticate_user!
   def index
     @counts = Count.all
     @counts = Count.order(:name)
