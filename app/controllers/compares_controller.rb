@@ -1,4 +1,5 @@
 class ComparesController < ApplicationController
+  before_filter :authenticate_user!
   def index
     @compares = Compare.all
     @compares = Compare.order(:name)
