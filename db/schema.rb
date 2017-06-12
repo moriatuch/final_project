@@ -10,14 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170510095413) do
+ActiveRecord::Schema.define(version: 20170612091345) do
 
-  create_table "compares", force: :cascade do |t|
+  create_table "TempOldTable", force: :cascade do |t|
     t.string   "name"
     t.string   "attachment"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.integer  "user_id"
+    t.integer  "result"
+    t.         "user_name"
+  end
+
+  create_table "compares", primary_key: "ID", force: :cascade do |t|
+    t.string   "name"
+    t.string   "attachment"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+    t.float    "result"
   end
 
   create_table "counts", force: :cascade do |t|
@@ -26,22 +37,32 @@ ActiveRecord::Schema.define(version: 20170510095413) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "user_id"
+    t.integer  "result"
+    t.         "user_name"
   end
 
-  create_table "dnas", force: :cascade do |t|
+  create_table "dnas", primary_key: "ID", force: :cascade do |t|
+    t.string   "name"
+    t.string   "attachment1"
+    t.string   "attachment2"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+    t.float    "red"
+    t.float    "blue"
+    t.float    "ratio"
+    t.string   "user_name"
+  end
+
+  create_table "original", id: false, force: :cascade do |t|
+    t.integer  "id"
     t.string   "name"
     t.string   "attachment"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
-  end
-
-  create_table "tmp_table_name", id: false, force: :cascade do |t|
-    t.         "name"
-    t.string   "attachment"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "user_id"
+    t.float    "result"
+    t.string   "user_name"
   end
 
   create_table "users", force: :cascade do |t|
@@ -50,6 +71,7 @@ ActiveRecord::Schema.define(version: 20170510095413) do
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
     t.string   "password_digest"
+    t.string   "remember_digest"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

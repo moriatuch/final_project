@@ -32,3 +32,20 @@ aside {
 .gravatar_edit {
   margin-top: 15px;
 }
+
+.checkbox {
+font-size: 0.8em;
+  margin-top: -10px;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  font-family: 'Montserrat';
+  margin-left: 0;
+}
