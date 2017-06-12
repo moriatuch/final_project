@@ -1,4 +1,5 @@
 class DnasController < ApplicationController
+before_filter :authenticate_user!
   def index
     @dnas = Dna.all
     @dnas = Dna.order(:name)

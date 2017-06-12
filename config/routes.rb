@@ -19,7 +19,7 @@ Rails.application.routes.draw do
 
   get 'sessions/new'
 
-  get 'users/new'
+  get 'users/new' 
 
   get 'count/new'
 
@@ -28,6 +28,7 @@ Rails.application.routes.draw do
   get 'count/destroy'
 
   get 'count/create'
+  get 'users/result'
 
   root 'sessions#new'
   get 'uploads/count_cells'
@@ -45,7 +46,7 @@ Rails.application.routes.draw do
 
   resources :photos
   resources :test
-  resources :users
+  resources :users 
   resources :contacts, only: [:new, :create]
   resources :counts, only: [:index, :new, :create, :destroy]
   resources :compares, only: [:index, :new, :create, :destroy]
