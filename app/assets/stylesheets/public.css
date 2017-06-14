@@ -656,3 +656,33 @@ input[type="checkbox"]  {
     float: left;
     width: 20%;
 }
+
+.marg{
+     padding-top:  0px;
+     font-size: large;
+     margin-left: 1%;
+ }
+.marg2{
+    padding-top:  0px;
+    font-size:small;
+    margin-left: 1%;
+    margin-right: 450px;
+    border: solid 0.5px;
+}
+.headAbout{
+    margin-top: 2%;
+    font-size: 80px;
+    margin-left: 1%;
+}
+.s_headAbout{
+    font-size: 30px;
+}
+.ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}

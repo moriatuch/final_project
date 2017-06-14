@@ -28,6 +28,7 @@ Rails.application.routes.draw do
   get 'count/destroy'
 
   get 'count/create'
+  get 'photos/aboutF'
   get 'users/result'
 
   root 'sessions#new'
