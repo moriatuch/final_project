@@ -28,6 +28,7 @@ before_filter :authenticate_user!
     @dna.red = result[1].to_f
     @dna.blue = result[2].to_f
     if @dna.save
+      byebug
       redirect_to dnas_path, notice: "The images #{@dna.name} has been uploaded."
     else
       render "new"
