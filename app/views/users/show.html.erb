@@ -17,7 +17,9 @@ DNA UPLOADS
   <thead>
     <tr>
       <th>Name</th>
-      <th> </th>
+      <th>red rate</th>
+      <th>blue rate</th>
+      <th>blue/red</th>
     </tr>
   </thead>
   <tbody>
@@ -25,7 +27,9 @@ DNA UPLOADS
     <% if dna.user_id == @user.id %>
         <tr>
           <td><%= dna.name  %></td>dfh
-          <td><%= link_to "Download Image", dna.attachment_url %></td>
+          <td><%=dna.red%></td>
+          <td><%=dna.blue%></td>
+          <td><%=dna.ratio%></td>
         </tr>
     <% end %>
   <% end %>
@@ -38,7 +42,7 @@ DNA UPLOADS
   <thead>
   <tr>
     <th>Name</th>
-    <th> </th>
+    <th>Number Of Cells</th>
   </tr>
   </thead>
 
@@ -47,7 +51,7 @@ DNA UPLOADS
     <% if counter.user_id == @user.id %>
       <tr>
         <td><%= counter.name  %></td>
-        <td><%= link_to "Download Image", counter.attachment_url %></td>
+        <td><%=counter.result%></td>
       </tr>
 
   <% end %>
@@ -62,7 +66,7 @@ COMPARE CELL UPLOADS
   <thead>
     <tr>
       <th>Name</th>
-      <th> </th>
+      <th>Result after processing</th>
     </tr>
   </thead>
   <tbody>
@@ -70,7 +74,7 @@ COMPARE CELL UPLOADS
     <% if compare.user_id == @user.id%>
       <tr>
         <td><%= compare.name  %></td>
-        <td><%= link_to "Download Image", compare.attachment_url %></td>
+        <td><%=compare.result%></td>
       </tr>
       <% end %>
   <% end %>

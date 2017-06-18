@@ -7,10 +7,9 @@
 <% end %>
 
 <br />
-
+<h1>Movment After Treatment</h1><br/>
+<br />
 <%= link_to "New Images", new_compare_path, class: "btn btn-primary" %>
-<button type="button" id="check_all" class="btn btn-info"><%="Check/Uncheck"%></button>
-<%= link_to "Send!", new_compare_path, class: "btn btn-success"%>
 <script>
     $('#check_all').on("click", function(){
         var cbxs = $('input[type="checkbox"]');
@@ -24,7 +23,6 @@
 
   <thead>
   <tr>
-    <th>ID</th>
     <th>Name</th>
     <th>Download Link</th>
     <th>Result after processing</th>
@@ -36,7 +34,6 @@
   <% @compares.each do |compare| %>
 
       <tr>
-        <td id="s"><%= check_box_tag(:pet_cat) %></td>
         <td><%= compare.name  %></td>
         <td><%= link_to "Download Image", compare.attachment_url %></td>
         <td><%=compare.result%></td>

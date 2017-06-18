@@ -7,10 +7,10 @@
 <% end %>
 
 <br />
+<h1>DNA Damage AND Aggressive</h1><br/>
+<br />
 
 <%= link_to "New Images", new_dna_path, class: "btn btn-primary" %>
-<button type="button" id="check_all" class="btn btn-info"><%="Check/Uncheck"%></button>
-<%= link_to "Send!", new_dna_path, class: "btn btn-success"%>
 <script>
     $('#check_all').on("click", function(){
         var cbxs = $('input[type="checkbox"]');
@@ -24,7 +24,6 @@
 
   <thead>
   <tr>
-    <th>ID</th>
     <th>Name</th>
     <th>Download Link</th>
     <th>red rate</th>
@@ -38,7 +37,6 @@
   <% @dnas.each do |dna| %>
       <tr>
 
-        <td id="s"><%= check_box_tag(:pet_dog) %></td>
         <td><%= dna.name  %></td>
         <td><%= link_to "Download Image",dna.attachment_url %></td>
         <td><%=dna.red%></td>
