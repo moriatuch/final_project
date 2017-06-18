@@ -1,6 +1,12 @@
 class DnasController < ApplicationController
-before_filter :authenticate_user!
+  before_filter :authenticate_user!
+  @user_id = nil
+
   def index
+    @users = User.all
+    @users.each do |user|
+      @user_id = session["user_id"] if user.id == session["user_id"]
+    end
     @dnas = Dna.all
     @dnas = Dna.order(:name)
     respond_to do |format|
@@ -28,7 +34,6 @@ before_filter :authenticate_user!
     @dna.red = result[1].to_f
     @dna.blue = result[2].to_f
     if @dna.save
-      byebug
       redirect_to dnas_path, notice: "The images #{@dna.name} has been uploaded."
     else
       render "new"

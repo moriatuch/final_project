@@ -1,6 +1,12 @@
 class CountsController < ApplicationController
   before_filter :authenticate_user!
+    @user_id = nil
+
   def index
+    @users = User.all
+    @users.each do |user|
+      @user_id = session["user_id"] if user.id == session["user_id"]
+    end
     @counts = Count.all
     @counts = Count.order(:name)
     respond_to do |format|

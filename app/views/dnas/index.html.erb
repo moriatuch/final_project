@@ -36,7 +36,7 @@
   <tbody>
   <% @dnas.each do |dna| %>
       <tr>
-
+  <% if dna.user_id == @user_id %>
         <td><%= dna.name  %></td>
         <td><%= link_to "Download Image",dna.attachment_url %></td>
         <td><%=dna.red%></td>
@@ -44,10 +44,10 @@
         <td><%=dna.ratio%></td>
         <td><%= button_to "Delete",  dna, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{dna.name}?" %></td>
       </tr>
-
+      <%end%>
 
   <% end %>
   </tbody>
 
 </table>
-
+<p>  <%= link_to "Excel", dnas_path(format: "xls") ,class: "btn btn-primary" %> </p>

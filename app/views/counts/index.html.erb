@@ -31,6 +31,7 @@
 
   <tbody>
   <% @counts.each do |count| %>
+  <% if count.user_id == @user_id %>
       <tr>
         <td><%= count.name  %></td>
         <td><%= link_to "Download Image", count.attachment_url %></td>
@@ -39,7 +40,7 @@
 
       </tr>
 
-
+<% end %>
   <% end %>
   </tbody>
 
