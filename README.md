@@ -18,10 +18,17 @@ Moriatu@Gmail.com
 
 #### Our Calender (https://calendar.google.com/calendar/embed?src=lh5kbi4coesd5q4ct5uqrkknlc%40group.calendar.google.com&ctz=Asia/Jerusalem)
 
-## [Issue Board](https://finalproject.tpondemand.com/RestUI/Board.aspx?invite&acid=A1A31BEEA0B468F0CF310507198F947D#page=board/5522985136534625501&appConfig=eyJhY2lkIjoiM0Q0QTQyMDMyMDEyQUYwQTA5RDc5NzdERDYzQTNDNDAifQ==)
+
 
 ## [User Manual](../../wiki/manual)
+
 ## [Abstract](../../wiki/Motivation)
+
+## [Prototype](https://github.com/moriatu/final_project/blob/master/%D7%90%D7%91%20%D7%98%D7%99%D7%A4%D7%95%D7%A1.docx)
+
+## [Final Video Clip](https://www.youtube.com/watch?v=jrdqcXuoeBY)
+
+## [Issue Board](https://finalproject.tpondemand.com/RestUI/Board.aspx?invite&acid=A1A31BEEA0B468F0CF310507198F947D#page=board/5522985136534625501&appConfig=eyJhY2lkIjoiM0Q0QTQyMDMyMDEyQUYwQTA5RDc5NzdERDYzQTNDNDAifQ==)
 
 ## Disclaimer
 This final project is developed as part of the requirements for a [software engineering Final Project](http://projects.jce.ac.il/moodle/)  at the software engineering department - [Azrieli College of Engineering](http://www.jce.ac.il/), Jerusalem, Israel.
