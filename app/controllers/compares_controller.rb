@@ -2,7 +2,7 @@ class ComparesController < ApplicationController
   before_filter :authenticate_user!
   @user_id = nil
 
-  def index
+    def index
     @users = User.all
     @users.each do |user|
       @user_id = session["user_id"] if user.id == session["user_id"]
@@ -26,19 +26,22 @@ class ComparesController < ApplicationController
   end
 
   def create
-    `cp #{params[:compare][:attachment].tempfile.path} C:/Sites/final_project/matlab/compare_temp.png`
-    Dir.chdir('/Sites/final_project/matlab')
-    `matlab -nodesktop -wait  -r "compare_ver3('compare_temp.png')";quit`
-    output = File.read('myfile.txt')
-    @compare = Compare.new(compare_params)
-    @compare.user_id = session["user_id"]
-    @compare.result = output.to_f
-    if @compare.save
-      redirect_to compares_path, notice: "The image #{@compare.name} has been uploaded."
+    if valid_data(params[:compare][:attachment].content_type)
+      `cp #{params[:compare][:attachment].tempfile.path} C:/Sites/final_project/matlab/compare_temp.png`
+      Dir.chdir('/Sites/final_project/matlab')
+      `matlab -nodesktop -wait  -r "compare_ver3('compare_temp.png')";quit`
+      output = File.read('myfile.txt')
+      @compare = Compare.new(compare_params)
+      @compare.user_id = session["user_id"]
+      @compare.result = output.to_f
+      if @compare.save
+        redirect_to compares_path, notice: "The image #{@compare.name} has been uploaded."
+      else
+        render "new"
+      end
     else
-      render "new"
+      redirect_to compares_path, notice: "The file type is unvalid, the file type need to be png/tiff/jpg/jepg."
     end
-
   end
 
   def destroy
@@ -50,6 +53,20 @@ class ComparesController < ApplicationController
   private
   def compare_params
     params.require(:compare).permit(:name, :attachment)
+  end
+
+    def valid_data(attachment)
+    if (attachment.match /.png/)
+      return true
+    elsif attachment.match /.tiff/
+      return true
+    elsif attachment.match /.jpg/
+      return true
+    elsif attachment.match /.jepg/
+      return true
+    else
+      return false
+    end
   end
 
 end
