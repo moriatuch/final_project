@@ -2,7 +2,6 @@
 
 <img src="https://github.com/moriatu/final_project/blob/master/img/data-processing.jpg?v=3&s=100" width ="380" height="285" align="center">
 
-## Disclaimer
 #### Collaboration with Department of Human Molecular Genetics & Biochemistry, Sackler Faculty of Medicine , Tel Aviv University.
 #### The essence of the project is to build an advanced system of image processing.
 
