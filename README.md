@@ -17,7 +17,7 @@ Moriatu@Gmail.com
 [Our Calender]
 (https://calendar.google.com/calendar/embed?src=lh5kbi4coesd5q4ct5uqrkknlc%40group.calendar.google.com&ctz=Asia/Jerusalem)
 
-## [Issue Board](https://finalproject.tpondemand.com/RestUI/Board.aspx?invite&acid=A1A31BEEA0B468F0CF310507198F947D#page=board/5522985136534625501&appConfig=eyJhY2lkIjoiM0Q0QTQyMDMyMDEyQUYwQTA5RDc5NzdERDYzQTNDNDAifQ==)
+##[Issue Board](https://finalproject.tpondemand.com/RestUI/Board.aspx?invite&acid=A1A31BEEA0B468F0CF310507198F947D#page=board/5522985136534625501&appConfig=eyJhY2lkIjoiM0Q0QTQyMDMyMDEyQUYwQTA5RDc5NzdERDYzQTN)
 
 ## Disclaimer
 This final project is developed as part of the requirements for a [software engineering Final Project](http://projects.jce.ac.il/moodle/)  at the software engineering department - [Azrieli College of Engineering](http://www.jce.ac.il/), Jerusalem, Israel.
@@ -27,7 +27,7 @@ This final project is developed as part of the requirements for a [software engi
 
 ### Project Documents
 - [Project Inception](../../wiki/inception)
-- [Organization Page] (https://med.tau.ac.il/profile/carmitlevy)
+- [Organization Page](https://med.tau.ac.il/profile/carmitlevy)
 
 
 
